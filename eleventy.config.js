@@ -6,18 +6,26 @@ module.exports = function (eleventyConfig) {
       '/styles/application.css'
     ],
     headingPermalinks: true,
+    brandColour: '#00a33b',
     header: {
-      organisationLogo: false,
-      productName: 'Design history',
-      search: {
-        indexPath: '/search.json',
-        sitemapPath: '/sitemap'
-      }
-    }
+      organisationLogo: 'royal-arms',
+      organisationName: 'DEFRA',
+      productName: 'Air quality design history'
+    },
+    url: process.env.GITHUB_ACTIONS
+      ? 'https://defra-design.github.io/aqie-prototype/'
+      : '/'
   })
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
+  eleventyConfig.addPassthroughCopy('./posts/images/');
+
+
+    // Colllections
+  eleventyConfig.addCollection('citizen-alpha', collection => {
+    return collection.getFilteredByGlob('app/posts/citizen-alpha/*.md')
+  })
 
   // Config
   return {
@@ -32,3 +40,4 @@ module.exports = function (eleventyConfig) {
     }
   }
 }
+
