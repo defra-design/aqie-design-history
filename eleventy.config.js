@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
       productName: 'Air quality design history'
     },
     url: process.env.GITHUB_ACTIONS
-      ? 'https://will-j-richards.github.io/aqie-prototype/'
+      ? 'https://will-j-richards.github.io/aqie-design-history/'
       : '/'
   })
 
@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
+    pathPrefix: "/aqie-design-history/", 
     dir: {
       input: 'app',
       output: 'docs',
