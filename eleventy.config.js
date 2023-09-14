@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
       productName: 'Air quality design history'
     },
     url: process.env.GITHUB_ACTIONS
-      ? 'https://defra-design.github.io/aqie-prototype/'
+      ? 'https://will-j-richards.github.io/aqie-prototype/'
       : '/'
   })
 
