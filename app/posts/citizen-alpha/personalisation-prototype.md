@@ -7,7 +7,7 @@ author:
   url: https://github.com/paulrobertlloyd
 ---
 
-Findings from the second round of user research with [the education prototype](/posts/citizen-alpha/the-education-prototype) found that:
+Findings from the second round of user research with [the education prototype](/aqie-design-history/posts/citizen-alpha/education-prototype/) found that:
 
 * while location was a strong hook into the data, once presented, the text heavy design wasn’t engaging enough for participants who needed to be prompted to explore further,
 * although we displayed data for a particular location, the content didn’t feel relevant or personal enough,

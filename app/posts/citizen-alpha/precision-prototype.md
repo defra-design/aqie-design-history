@@ -7,7 +7,7 @@ author:
   url: https://github.com/paulrobertlloyd
 ---
 
-Findings from the third round of research with [the personalisation prototype](/posts/citizen-alpha/personalisation-prototype/) found that:
+Findings from the third round of research with [the personalisation prototype](/aqie-design-history/posts/citizen-alpha/personalisation-prototype/) found that:
 
 * finding information about local air quality was a top priority, followed by any action local councils are taking to improve it,
 * people need to recognise their own air quality situation to trigger curiosity in the topic,

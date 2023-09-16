@@ -23,7 +23,7 @@ Besides any statutory requirement, as the authoritative source of air quality da
 
 ## Ideation
 
-The team held a series of ideation and prioritisation sessions, partially informed by [our initial novice and messenger personas](/posts/citizen-alpha/personas). From these, a set of desirable and technically feasible features emerged:
+The team held a series of ideation and prioritisation sessions, partially informed by [our initial novice and messenger personas](/aqie-design-history/posts/citizen-alpha/personas/). From these, a set of desirable and technically feasible features emerged:
 
 * Get air quality information for a known location or postcode
 * See improvements a local authority is making to air quality

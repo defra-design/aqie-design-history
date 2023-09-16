@@ -7,7 +7,7 @@ author:
   url: https://github.com/paulrobertlloyd
 ---
 
-Findings from the first round of user research with [the initial prototype](/posts/citizen-alpha/initial-prototype) found that:
+Findings from the first round of user research with [the initial prototype](/aqie-design-history/posts/citizen-alpha/initial-prototype/) found that:
 
 * participants expected to see government providing this content and considered GOV.UK to be a trusted source of information,
 * showing typically low values in the air quality forecast (which itself covers a large area) sometimes didn’t correlate with a participant’s own experience, undermining any initial trustworthiness,
@@ -36,7 +36,7 @@ Air quality is influenced by varying factors at different levels. Consider the f
 
 We started with a page of guidance driven by the above model:
 
-![Screenshot of a page split into sections](../images/education-prototype/1.png)
+![Screenshot of a page split into sections](../../images/education-prototype/1.png)
 
 However, this was a lot of information to show on one page. Might it be possible to split the information up into sections?
 
