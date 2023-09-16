@@ -4,7 +4,7 @@ This repo includes the following design resources:
 
 ## Design history
 
-<https://defra-design.github.io/aqie-design-history/>\
+<https://defra-design.github.io/aqie-design-history/>
 
 Post downloading the repo, to install dependencies run:
 
