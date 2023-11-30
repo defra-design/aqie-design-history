@@ -61,7 +61,7 @@ The OS Places API's can return multiple matches for a given request, enabling us
 
 We designed a logic within the results that first identifies and returns the district borough from the results of the API. If the district borough is not available, it automatically defaults to the unitary authority. 
 
-This approach enables users to differentiate between the similar titled areas. For example, distinguishing 'Millbrook, **Tameside**' (a district borough) from 'Millbrook, **Cornwall**' (a unitary authority).
+This approach enables users to differentiate between similar titled areas. For example, distinguishing 'Millbrook, **Tameside**' (a district borough) from 'Millbrook, **Cornwall**' (a unitary authority).
 
 ## Air quality location page
 
@@ -69,7 +69,7 @@ This approach enables users to differentiate between the similar titled areas. F
 
 To keep the design clean and simple, we have implemented progressive disclosures for certain elements of this page. Our hypothesis is that the content within the progressive disclosures will help add context to many of the engaged users but reduce cognitive overload for others.  
 
-We have moved the information on pollutants, their health effects and measurements to separate pages. Our hypothesis is that when users search for specific pollutants, we want each of the pages to have the ability to be the beginning and end of the user’s journey.
+We have moved the information on pollutants, their health effects and measurements to separate pages. Our hypothesis is that when users search for specific pollutants, we want each of the pages to have the ability to be the first touch point in a user's journey.
 
 ### Daily air quality index (DAQI)
 
