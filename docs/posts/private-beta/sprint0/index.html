@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template no-js">
   <head>
     <meta charset="utf-8">
-    <title>Sitemap - Air quality design history - DEFRA</title>
+    <title>Sprint 0 - Air quality design history - DEFRA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="/aqie-design-history/assets/govuk.css">
   <link rel="stylesheet" href="/aqie-design-history/styles/application.css">
 
-  <meta property="og:url" content="/aqie-design-history/sitemap/">
-  <meta property="og:title" content="Sitemap">
+  <meta property="og:url" content="/aqie-design-history/posts/private-beta/sprint0/">
+  <meta property="og:title" content="Sprint 0">
 
     
   </head>
@@ -49,41 +49,75 @@
 
 
       <div class="govuk-width-container ">
-  
+  <div class="govuk-breadcrumbs govuk-!-display-none-print">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
+    </li>
+  </ol>
+</div>
+
         <main class="govuk-main-wrapper " id="main-content" role="main">
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <header class="app-document-header">
+  <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Sitemap
+    Sprint&nbsp;0
   </h1>
 
 </header>
 
 
 
-    
+<div class="app-prose-scope">    <p class="govuk-body">Findings from the first round of user research with <a href="/aqie-design-history/posts/citizen-alpha/initial-prototype/" class="govuk-link">the initial prototype</a> found that:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>participants expected to see government providing this content and considered GOV.UK to be a trusted source of information,</li>
+<li>showing typically low values in the air quality forecast (which itself covers a large area) sometimes didn’t correlate with a participant’s own experience, undermining any initial trustworthiness,</li>
+<li>users were keen to know more; what air quality means for them and their family and what practical actions they could take,</li>
+<li>participants didn’t think in terms of local/regional/national; they started with their own area of interest and moved on to other areas from there,</li>
+<li>the option to get local information drew attention away from any other content on the homepage, including links to guidance.</li>
+</ul>
+<p class="govuk-body">If we consider each prototype iteration to have a particular theme, the initial prototype focused on <strong>presentation</strong>, collating and providing structure around existing data sources.</p>
+<p class="govuk-body">Leading with an air-quality forecast – backed up with information about particular pollutants – proved problematic as this information lacked context.</p>
+<p class="govuk-body">For this iteration we focused on <strong>education</strong>, combining user’s interest in their local area with editorialised and localised content about air quality.</p>
+<h2 id="spheres-of-influence" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#spheres-of-influence"><span>Spheres of influence</span></a></h2>
+<p class="govuk-body">Air quality is influenced by varying factors at different levels. Consider the following:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li><strong>for an individual</strong>, existing health conditions can be agrevated by increased levels of air pollution. Age and your daily activities may also be factors in the degree air quality is an issue.</li>
+<li><strong>in the home</strong>, poor ventilation and indoor pollutants such as mould or mildew may be a factor.</li>
+<li><strong>on the street</strong>, your proximity to busy roads, nearby industrial polluters and localised activity like wood burning can be factors.</li>
+<li><strong>within a neighbourhood</strong>, prevailing weather conditions dictate the level of air pollution, and the type of area (urban, suburban or rural) can dictate which pollutants are more common.</li>
+<li><strong>within a local authority area</strong>, interventions that have been implemented or are being considered will have an impact.</li>
+<li>finally, <strong>regional and national</strong> policy decisions will dictate the overall strategy for improving air quality.</li>
+</ul>
+<h2 id="design" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#design"><span>Design</span></a></h2>
+<p class="govuk-body">We started with a page of guidance driven by the above model:</p>
+<figure><img src="../../images/education-prototype/1.png" alt="Screenshot of a page split into sections"></figure>
+<p class="govuk-body">However, this was a lot of information to show on one page. Might it be possible to split the information up into sections?</p>
+<p class="govuk-body">We arrived at a direction where the story of air quality in a particular area could be told:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>A description of the sources of pollution (with content shown dictated by the type of area shown) that could provide context for information shown on later pages,</li>
+<li>The measured air quality right now, and what it the forecast over the next 5 days,</li>
+<li>If the given postcode is in a smoke control area,</li>
+<li>How air pollution is being monitored and managed by the local authority,</li>
+<li>How the local authority is trying to improve air quality</li>
+<li>What has been the outcome of these interventions.</li>
+</ul>
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+<h2 id="screenshots" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#screenshots"><span>Screenshots</span></a></h2>
+<figure><img src="../../images/education-prototype/2.png" alt="Start page on GOV.UK for ‘Get local air quality information’"><figcaption>GOV.UK start page</figcaption></figure>
+<figure><img src="../../images/education-prototype/3.png" alt="Page asking the user to enter a postcode"><figcaption>Enter a postcode</figcaption></figure>
+<figure><img src="../../images/education-prototype/4.png" alt="Page showing the sources of air pollution shown for a rural area"><figcaption>Air quality in a location – Sources of air pollution (rural area)</figcaption></figure>
+<figure><img src="../../images/education-prototype/5.png" alt="Page showing the sources of air pollution shown for an urban area"><figcaption>Air quality in a location – Sources of air pollution (urban area)</figcaption></figure>
+<figure><img src="../../images/education-prototype/6.png" alt="Page showing the current pollution levels and forecast"><figcaption>Air quality in a location – Current pollution levels and forecast</figcaption></figure>
+<figure><img src="../../images/education-prototype/7.png" alt="Page showing if postcode is within a smoke control area"><figcaption>Air quality in a location – Smoke control area</figcaption></figure>
+<figure><img src="../../images/education-prototype/8.png" alt="Page showing local Air Quality Management Areas"><figcaption>Air quality in a location – Management areas</figcaption></figure>
+<figure><img src="../../images/education-prototype/9.png" alt="Page showing local initiatives to improve air quality"><figcaption>Air quality in a location – Improving local air quality</figcaption></figure>
+<figure><img src="../../images/education-prototype/10.png" alt="Page detailing the outcomes due to local air quality improvement"><figcaption>Air quality in a location – Outcomes</figcaption></figure>
 
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/citizen-alpha/">Citizen Alpha</a>
-        </h2>
-          <p class="govuk-body">Design history for the alpha exploring concepts around citizen-facing services.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/citizen-alpha/glossary/">Glossary</a></li>
-<li><a href="/posts/citizen-alpha/personas/">Our initial personas</a></li>
-<li><a href="/posts/citizen-alpha/initial-prototype/">The initial prototype</a></li>
-<li><a href="/posts/citizen-alpha/education-prototype/">The education prototype</a></li>
-<li><a href="/posts/citizen-alpha/personalisation-prototype/">The personalisation prototype</a></li>
-<li><a href="/posts/citizen-alpha/precision-prototype/">The precision prototype</a></li></ul>
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
-        </h2>
-          <p class="govuk-body">Design history for the private beta for a citizen-facing air quality information service.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/private-beta/sprint1/">Sprint one</a></li></ul>
-      </div>
-  </div>
+
+      
 </div>
         </main>
       </div>

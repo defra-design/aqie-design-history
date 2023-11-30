@@ -27,6 +27,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('app/posts/citizen-alpha/*.md')
   })
 
+  eleventyConfig.addCollection('private-beta', collection => {
+    return collection.getFilteredByGlob('app/posts/private-beta/*.md')
+  })
+
   // Config
   return {
     dataTemplateEngine: 'njk',
