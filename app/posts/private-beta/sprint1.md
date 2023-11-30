@@ -26,17 +26,17 @@ The private beta design is not intended to work as one transactional journey, an
 
 ![Start page on GOV.UK for ‘Check local air quality’](../../images/sprint-one/start.png "")
 
-We have kept this page very simple and used the pattern documented within the [goverment design system](https://design-system.service.gov.uk/patterns/start-using-a-service/).
+We have kept this page very simple and used the pattern documented within the [government design system](https://design-system.service.gov.uk/patterns/start-using-a-service/).
 
-We have a working hypothesis that this landing page may not be required. Whether we amalgamate it with the ‘Where do you want to check?’ page or just remove it entirely are potential ideas to test and iterate upon in future sprints if we get any evidence that this page isn’t required.
+We have a working hypothesis that this landing page may not be required. Whether we amalgamate it with the ‘Where do you want to check?’ page, or just remove it entirely, are potential ideas to test and iterate upon in future sprints if we get any evidence that this page isn’t required.
 
-The name of the service is a working title for now whilst we gather evidence about whether we use the words ‘air quality’ or ‘air pollution’. 
+The name of the service is a working title for now whilst we gather evidence about whether we use the phrase ‘air quality’ or ‘air pollution’. 
 
 ## Location search
 
 ![Page showing how a user searches for a location](../../images/sprint-one/search-for-location.png "")
 
-We decided to follow a similar pattern used by the Check for flooding service. We were able to utilise their research to help us design a page that allows the user to complete their action as easily as possible.
+We decided to follow a similar pattern used by the ‘Check for flooding’ service. We were able to utilise their research to help us design a page that allows the user to complete their action as easily as possible.
 
 Additionally, we integrated the [OS Places Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
 
@@ -57,7 +57,7 @@ Filtering within the API is documented on the [OS Data Hub](https://osdatahub.os
 
 ![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-one/disambiguation.png "")
 
-The OS Places API's can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
+The OS Places APIs can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
 
 We designed a logic within the results that first identifies and returns the district borough from the results of the API. If the district borough is not available, it automatically defaults to the unitary authority. 
 
@@ -67,9 +67,9 @@ This approach enables users to differentiate between similar titled areas. For e
 
 ![Page showing the current forecast](../../images/sprint-one/location.png "")
 
-To keep the design clean and simple, we have implemented progressive disclosures for certain elements of this page. Our hypothesis is that the content within the progressive disclosures will help add context to many of the engaged users but reduce cognitive overload for others.  
+To keep the design clean and simple, we have implemented progressive disclosures for certain elements of this page. Our hypothesis is that the content within the progressive disclosures will help add context for many of the engaged users but reduce cognitive overload for others.  
 
-We have moved the information on pollutants, their health effects and measurements to separate pages. Our hypothesis is that when users search for specific pollutants, we want each of the pages to have the ability to be the first touch point in a user's journey.
+We have moved the information on pollutants, their health effects, and measurements to separate pages. Our hypothesis is that when users search for specific pollutants, we want each of the pages to have the ability to be the first touch point in a user's journey.
 
 ### Daily air quality index (DAQI)
 
@@ -81,7 +81,7 @@ While a parallel piece of social research into the DAQI is being carried out, we
 
 ![Image showing health advice](../../images/sprint-one/health-advice.png "")
 
-To give context to the DAQI scale, we have included health advice for the forecasted measurement. This text has been taken directly from the UK AIR website. In the next iterations, we may work on paring the text down to use plain English and improve readability. We have removed the advice for citizens with no health problems as we have a working assumption that we only need to advise people who may be in danger from the forecast air pollution levels. 
+To give context to the DAQI scale, we have included health advice for the forecasted measurement. This text has been taken directly from the UK AIR website. In future iterations we may work on paring the text down to use plain English and improve readability. We have removed the advice for citizens with no health problems as we have a working assumption that we only need to advise people who may be in danger from the forecast air pollution levels. 
 
 The details component contains all the health advice for the DAQI scale. Again, we will visit the wording of this in future iterations. 
 
@@ -89,13 +89,13 @@ The details component contains all the health advice for the DAQI scale. Again, 
 
 ![Image showing the measurement stations table](../../images/sprint-one/measurement-stations.png "")
 
-We included the 3 nearest measuring stations to the citizen's search point. We did this, as the closest may not be the most relevant station for the user to be aware of (if, for example, it is based at an industrial site, whereas the user may be searching a residential address which may not be affected by the higher readings from the industrial site). Currently, for the prototype, these are fixed, hypothetical stations and not dynamic to any searched location. 
+We included the 3 nearest measuring stations to the citizen's search point. We did this as the closest may not be the most relevant station for the user to be aware of (for example, if the nearest station is based at an industrial site but the user is searching a residential address, the residential address may not be affected by the higher readings from the industrial site). Currently, for the prototype, these are fixed, hypothetical stations and not dynamic to any searched location. 
 
 ### Station page
 
 ![Page showing the current pollutant measurements at a station](../../images/sprint-one/measuring-station.png "")
 
-Each station is linked from the air quality location page. The station page includes a decription of the type of pollutant and then provides the current measurement for that pollutant. 
+Each station is linked from the air quality location page. The station includes a description and the current measurement of each pollutant that is measured at that particular station.
 
 ## Pollutants
 
