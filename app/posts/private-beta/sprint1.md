@@ -40,6 +40,19 @@ We decided to follow a similar pattern used by the Check for flooding service. W
 
 Additionally, we integrated the [OS Places Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
 
+The API can return many results, by utilizing its functionality, we can filter results using the `LOCAL_TYPE:` parameter, ensuring only the desired types are displayed.
+
+`LOCAL_TYPE:` filters used in the prototype:
+
+* City
+* Town
+* Village
+* Suburban_Area
+* Postcode
+* Airport
+
+Filtering within the API is documented on the [OS Data Hub](https://osdatahub.os.uk/docs/names/technicalSpecification?_ga=2.22604795.1525581704.1701342143-1774170150.1701342142&_gl=1*1s8nh4i*_ga*MTc3NDE3MDE1MC4xNzAxMzQyMTQy*_ga_59ZBN7DVBG*MTcwMTM1NTU4My4yLjAuMTcwMTM1NTU4My42MC4wLjA).
+
 ## Disambiguation
 
 ![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-one/disambiguation.png "")
