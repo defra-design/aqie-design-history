@@ -61,7 +61,7 @@ The OS Places APIs can return multiple matches for a given request, enabling us 
 
 We designed a logic within the results that first identifies and returns the district borough from the results of the API. If the district borough is not available, it automatically defaults to the unitary authority. 
 
-This approach enables users to differentiate between similar titled areas. For example, distinguishing 'Millbrook, **Tameside**' (a district borough) from 'Millbrook, **Cornwall**' (a unitary authority).
+This approach enables users to differentiate between the similar titled areas. For example, distinguishing 'Millbrook, **Tameside**' (a district borough) from 'Millbrook, **Cornwall**' (a unitary authority).
 
 ## Air quality location page
 
