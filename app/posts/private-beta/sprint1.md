@@ -11,7 +11,7 @@ The sprint goals were centered around the primary user needs identified in Beta 
 
 As a user I need to: 
 
-* check air quality in my chosen local area (forecast and measured)
+* check air quality in my local area (forecast and measured)
 * understand how air quality can affect me or the people I care for
 * understand about the different pollutants, the sources and how they can affect short term and long term health
 
