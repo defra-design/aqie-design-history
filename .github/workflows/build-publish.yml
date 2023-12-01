@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16 # Use Node.js version 16
 
       - name: Install Dependencies
         run: npm install
@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "will@madebymoon.com"
-          git config --global user.name "will-j-richards
+          git config --global user.name "will-j-richards"
           npx gh-pages -d output # Change 'docs' to your Eleventy output directory
 
