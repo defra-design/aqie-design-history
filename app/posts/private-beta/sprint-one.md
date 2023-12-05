@@ -40,7 +40,7 @@ We decided to follow a similar pattern used by the ‘Check for flooding’ serv
 
 Additionally, we integrated the [OS Places Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
 
-The API can return many results, by utilizing its functionality, we can filter results using the `LOCAL_TYPE:` parameter, ensuring only the desired types are displayed.
+The API can return many results, by utilising its functionality, we can filter results using the `LOCAL_TYPE:` parameter, ensuring only the desired types are displayed.
 
 `LOCAL_TYPE:` filters used in the prototype:
 
