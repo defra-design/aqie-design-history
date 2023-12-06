@@ -38,7 +38,7 @@ The name of the service is a working title for now whilst we gather evidence abo
 
 We decided to follow a similar pattern used by the ‘Check for flooding’ service. We were able to utilise their research to help us design a page that allows the user to complete their action as easily as possible.
 
-Additionally, we integrated the [OS Places Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
+Additionally, we integrated the [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
 
 The API can return many results, by utilising its functionality, we can filter results using the `LOCAL_TYPE:` parameter, ensuring only the desired types are displayed.
 
@@ -57,7 +57,7 @@ Filtering within the API is documented on the [OS Data Hub](https://osdatahub.os
 
 ![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-one/disambiguation.png "")
 
-The OS Places APIs can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
+The OS Names APIs can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
 
 We designed a logic within the results that first identifies and returns the district borough from the results of the API. If the district borough is not available, it automatically defaults to the unitary authority. 
 
