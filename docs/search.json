@@ -41,31 +41,38 @@
     "templateContent": "findings from third round research with personalisation prototype found that: finding information about local air quality top priority followed by any action councils are taking improve people need recognise their own situation trigger curiosity topic most approach set assumptions only affects certain groups single source problem areas asking users make plan hard when they understand yet want know more than just overall always level where does pollution come what long term health risk first explored precision theme over 2 rounds focused primarily mapping until this point mostly avoided using maps illustrate universally accessible have potential provide inaccurate misleading picture especially modelled data limited number monitoring stations even fewer rural however policy team exploring opportunities use precise potentially street forecasting wanted explore how would presented map appetite granular built simple that asked location before presenting them view displayed current index value additional options based used london service nitrogen dioxide pm2.5 side panel gave 5 day forecast primary pollutant area links hinting further exclusively sidebar avoid confusion observed described low showed continue see gov.uk authoritative trustworthy engaging encourage interaction exploration desire pan zoom green can interpreted being neutral colour indication could locations measured there less interest coming days changeable unreliable keener understanding right now perhaps hourly intervals leading technical terms like means ignored said seeing pollutants exceedance spark   concern second supportive role meant interactive getting made easier expand show also dig deeper into preferences around timescale important historical useful given likelihood longer timespan across span opportunity revisit explain grouping categories: gases particles lead simpler better understood thinking again narrative journeys through included page dug particular here measurement graphs relationship management improvement council undertaking turn link educational within finally added list industrial sites near sourced uk release transfer register prtr might interpret looked viewing measures layered measurements doing enable between undertaken reduce screenshots initial landing showing no2 revised elephant castle se1 oxides nox yearly average concentration",
     "url": "/aqie-design-history/posts/citizen-alpha/precision-prototype/"
   },  {
-    "title": "Air quality design history",
-"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
-    "hasFrontmatterDate": false,
-    "date": "11 September 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/"
-  },  {
-    "title": "Citizen Alpha",
-"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
-    "hasFrontmatterDate": false,
-    "date": "11 September 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/citizen-alpha/"
-  },  {
-    "title": "Citizen Private Beta",
-"description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
-    "hasFrontmatterDate": false,
-    "date": "24 November 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/private-beta/"
-  },  {
     "title": "Sprint one",
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "30 November 2023",
     "templateContent": "sprint goals were centered around primary user needs identified beta planning post alpha need : check air quality chosen local area forecast measured understand how can affect people care about different pollutants sources they short term long health screens within prototype private design intended work one transactional journey any page service could considered first touch point landing have kept this very simple used pattern documented government system working hypothesis that may required whether amalgamate with where want just remove entirely are potential ideas test iterate upon future sprints get evidence name title now whilst gather use phrase location search decided follow similar by able utilise their research help us allows complete action easily possible additionally integrated os names api feature users locations using either place postcodes return many results utilising its functionality filter local_type: parameter ensuring only desired types displayed filters prototype: city town village suburban_area postcode airport filtering data hub disambiguation apis multiple matches given request enabling implement provides district_borough county_unitary gazetteer each result designed logic identifies returns district borough from available automatically defaults unitary authority approach enables differentiate between titled areas example distinguishing millbrook tameside cornwall keep clean implemented progressive disclosures certain elements our content will add context engaged reduce cognitive overload others moved information effects measurements separate pages when specific ability daily index daqi while parallel piece social into being carried out left 10 scale however well accessibility issues believe points superfluous having 4 low moderate high would less confusing something hope more sessions advice give included forecasted measurement text been taken directly uk website iterations paring down plain english improve readability removed citizens problems assumption advise who danger pollution levels details component contains all again visit wording stations 3 nearest measuring did closest most relevant station aware based industrial site searching residential address affected higher readings currently these fixed hypothetical dynamic searched linked includes description current pollutant particular stand alone navigated engine part earlier written collaboration still checked subject matter expert sme button look put link though undecided which constitute homepage hopefully become clear",
     "url": "/aqie-design-history/posts/private-beta/sprint-one/"
+  },  {
+    "title": "Sprint two",
+"section": "Citizen Private Beta",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "14 December 2023",
+    "templateContent": "sprinting goals were centered around primary user needs identified beta planning post alpha need : check air quality chosen local area forecast measured understand how can affect people care about different pollutants sources they short term long health screens within prototype private design intended work one transactional journey any page service could considered first touch point landing have kept this very simple used pattern documented government system working hypothesis that may required whether amalgamate with where want just remove entirely are potential ideas test iterate upon future sprints get evidence name title now whilst gather use phrase location search decided follow similar by able utilise their research help us allows complete action easily possible additionally integrated os names api feature users locations using either place postcodes return many results utilising its functionality filter local_type: parameter ensuring only desired types displayed filters prototype: city town village suburban_area postcode airport filtering data hub disambiguation apis multiple matches given request enabling implement provides district_borough county_unitary gazetteer each result designed logic identifies returns district borough from available automatically defaults unitary authority approach enables differentiate between titled areas example distinguishing millbrook tameside cornwall keep clean implemented progressive disclosures certain elements our content will add context engaged reduce cognitive overload others moved information effects measurements separate pages when specific ability daily index daqi while parallel piece social into being carried out left 10 scale however well accessibility issues believe points superfluous having 4 low moderate high would less confusing something hope more sessions advice give included forecasted measurement text been taken directly uk website iterations paring down plain english improve readability removed citizens problems assumption advise who danger pollution levels details component contains all again visit wording stations 3 nearest measuring did closest most relevant station aware based industrial site searching residential address affected higher readings currently these fixed hypothetical dynamic searched linked includes description current pollutant particular stand alone navigated engine part earlier written collaboration still checked subject matter expert sme button look put link though undecided which constitute homepage hopefully become clear",
+    "url": "/aqie-design-history/posts/private-beta/sprint-two/"
+  },  {
+    "title": "Air quality design history",
+"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
+    "hasFrontmatterDate": false,
+    "date": "14 December 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/"
+  },  {
+    "title": "Citizen Alpha",
+"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "14 December 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/citizen-alpha/"
+  },  {
+    "title": "Citizen Private Beta",
+"description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "14 December 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/private-beta/"
   }]
