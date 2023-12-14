@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-The sprinting goalies were centered around the primary user needs identified in Beta planning post Alpha. 
+The sprint goal were centered around the primary user needs identified in Beta planning post Alpha. 
 
 As a user I need to: 
 
