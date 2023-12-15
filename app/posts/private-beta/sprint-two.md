@@ -7,13 +7,13 @@ author:
   url: https://github.com/defra-design
 ---
 
-The sprint goal were centered around the primary user needs identified in Beta planning post Alpha. 
+Research goals from sprint one
 
-As a user I need to: 
-
-* check air quality in my chosen local area (forecast and measured)
-* understand how air quality can affect me or the people I care for
-* understand about the different pollutants, the sources and how they can affect short term and long term health
+* Is postcode look-up sufficient for looking up air quality?
+* DAQI: do participants understand the DAQI score/levels as relevant to them?​
+* Do people read and understand the health advice? Do they regard it as relevant to them?
+* Do people engage with the measurement stations (location, readings) and do they give credibility to the DAQI score?​
+* Do users come away appreciating that poor AQ poses a health risk?​
 
 ## Screens within the prototype
 
