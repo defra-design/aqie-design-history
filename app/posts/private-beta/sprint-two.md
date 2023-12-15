@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-Research goals from sprint one
+## Research goals from sprint one
 
 * Is postcode look-up sufficient for looking up air quality?
 * DAQI: do participants understand the DAQI score/levels as relevant to them?​
@@ -15,7 +15,7 @@ Research goals from sprint one
 * Do people engage with the measurement stations (location, readings) and do they give credibility to the DAQI score?​
 * Do users come away appreciating that poor AQ poses a health risk?​
 
-## Screens within the prototype
+## Research findings: What worked well
 
 <img src="../../images/sprint-two/scope.svg" alt="The scope of the Private BETA MVP" style="margin-bottom: 30px; width: 100%; height: auto;" />
 
