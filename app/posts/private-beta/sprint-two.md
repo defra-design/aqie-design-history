@@ -15,97 +15,93 @@ author:
 * Do people engage with the measurement stations (location, readings) and do they give credibility to the DAQI score?​
 * Do users come away appreciating that poor AQ poses a health risk?​
 
-## Research findings: What worked well
+## Research findings
 
-<img src="../../images/sprint-two/scope.svg" alt="The scope of the Private BETA MVP" style="margin-bottom: 30px; width: 100%; height: auto;" />
+### What worked well
+
+Most of the participants commented that the prototype was in keeping with many government websites, it was noted that:
+
+* the site is credible and easy to use
+* the location search did not present participants with any friction and in this round everyone entered a postcode without prompts
+* the site content was clear, straight forward and easy to understand
+* The health information was engaging and even showed signs of overturning some air quality myths and creating interest in behavioural change
+
+### What needs work
+
+Whilst the beginning of the user’s journey tested well, once they arrived at a forecast location, it was noted: 
+
+* scientific language, especially around pollutant names and measures, presented a barrier to participants
+* monitoring stations and how data is being collected isn't of high interest and can lead to key information being completely ignored (The names in the prototype  were fictional and so it could be percieved that particpants didn't/couldn't relate to these)
+* the location of the pollutant information under related content was overlooked
+
+## What we focussed on in sprint two
+
+As a team, in Sprint two, we agreed the main points to focus on were:  
+
+* The flow of the content; as users were put off reading the ‘related content’ perhaps due to the positioning and the use of scientific terms
+* By promoting pollutant measurements versus monitoring sites would they increase engagement?
+* Using nearby location names for the monitoring sites would they make these more relatable?
 
 
-The private beta design is not intended to work as one transactional journey, any page within the service could be considered a first touch point.
+## Screens within the prototype
 
-## Landing page
+<img src="../../images/sprint-two/scope.svg" alt="The scope of the prototype" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
-![Start page on GOV.UK for ‘Check local air quality’](../../images/sprint-one/start.png "")
 
-We have kept this page very simple and used the pattern documented within the [government design system](https://design-system.service.gov.uk/patterns/start-using-a-service/).
+## Air quality forecast location
 
-We have a working hypothesis that this landing page may not be required. Whether we amalgamate it with the ‘Where do you want to check?’ page, or just remove it entirely, are potential ideas to test and iterate upon in future sprints if we get any evidence that this page isn’t required.
+![Air quality forecast location](../../images/sprint-two/location.png "")
 
-The name of the service is a working title for now whilst we gather evidence about whether we use the phrase ‘air quality’ or ‘air pollution’. 
+We updated this page to make it easier for users to learn about the air quality in their area by reorganising the hierarchy and putting it all on one page rather than branching the pollutants off under ‘related content’. 
 
-## Location search
+## Flow of content
 
-![Page showing how a user searches for a location](../../images/sprint-one/search-for-location.png "")
+We adapted the headings to show a logical flow that the user would follow. 
 
-We decided to follow a similar pattern used by the ‘Check for flooding’ service. We were able to utilise their research to help us design a page that allows the user to complete their action as easily as possible.
+### 'The air pollution forecast for today is moderate'
 
-Additionally, we integrated the [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api). This feature allows users to search for locations using either place names or postcodes.
+The level of air pollution is what users all users seem interested in after entering their location.
 
-The API can return many results, by utilising its functionality, we can filter results using the `LOCAL_TYPE:` parameter, ensuring only the desired types are displayed.
+### 'Advice for moderate levels of air pollution'
 
-`LOCAL_TYPE:` filters used in the prototype:
+Next, we tell the users what this level of air pollution means for them and highlighting advice for those at risk who may have health concerns.
 
-* City
-* Town
-* Village
-* Suburban_Area
-* Postcode
-* Airport
+### 'How air pollutants can affect your health’
 
-Filtering within the API is documented on the [OS Data Hub](https://osdatahub.os.uk/docs/names/technicalSpecification?_ga=2.22604795.1525581704.1701342143-1774170150.1701342142&_gl=1*1s8nh4i*_ga*MTc3NDE3MDE1MC4xNzAxMzQyMTQy*_ga_59ZBN7DVBG*MTcwMTM1NTU4My4yLjAuMTcwMTM1NTU4My42MC4wLjA).
+Next, we went deeper into how the individual pollutants can affect the user’s health. This was the material that was previously in the right hand side of the page under ‘related content’. We are hoping that the heading of this may encourage users to select the individual pollutants to find out more. In previous research, they are often put off reading further as the scientific terms make them think they won’t understand it. 
 
-## Disambiguation
+![How air pollutants can affect your health](../../images/sprint-two/pollutants-location.png "")
 
-![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-one/disambiguation.png "")
+### ‘Air pollutants monitored nearby’
 
-The OS Names APIs can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
+We aimed to make this element more engaging, firstly by introducing the pollutant measurments to the page for each station. Secondly by adding in 2 new columns of ‘trend’ and ‘rising’. We borrowed this concept from the Check for flooding service. We thought that this information would give the paticpants more context to the measurements rather than just displaying an aritary number.
 
-We designed a logic within the results that first identifies and returns the district borough from the results of the API. If the district borough is not available, it automatically defaults to the unitary authority. 
+![Air pollutants monitored nearby](../../images/sprint-two/monitored-near-by.png "")
 
-This approach enables users to differentiate between the similar titled areas. For example, distinguishing 'Millbrook, **Tameside**' (a district borough) from 'Millbrook, **Cornwall**' (a unitary authority).
+We also have a working hypothesis that we would only display monitoring sites that are within a certian distance for example, 75 miles and up to a maximum of 3.
 
-## Air quality location page
+<img src="../../images/sprint-two/sites.svg" alt="Concept for monitoring sites" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
-![Page showing the current forecast](../../images/sprint-one/location.png "")
+## Tooltips
 
-To keep the design clean and simple, we have implemented progressive disclosures for certain elements of this page. Our hypothesis is that the content within the progressive disclosures will help add context for many of the engaged users but reduce cognitive overload for others.  
+![Tooltips](../../images/sprint-two/tooltips.png "")
 
-We have moved the information on pollutants, their health effects, and measurements to separate pages. Our hypothesis is that when users search for specific pollutants, we want each of the pages to have the ability to be the first touch point in a user's journey.
+From previous user research, the information in the data table has proven to be hard to understand for most users. We were struggling to think of a way to explain some of the columns without making the design too busy. Again, looking at the Check for flooding service, we noticed they used tooltips in a very similar data table to ours. We had a productive chat with the interaction and content designer from the service who walked through their user research and accessibility findings. The use of tooltips had been mentioned by users during our alpha user research. This made us comfortable in trying them in the iteration for sprint two. 
 
-### Daily air quality index (DAQI)
+## Pollutant details page
 
-![Image showing the daily air quality index](../../images/sprint-one/daqi.png "")
+![Pollutant details page](../../images/sprint-two/pollutant-details.png "")
 
-While a parallel piece of social research into the DAQI is being carried out, we have left the 10-point scale in the prototype. However, as well as accessibility issues, we believe that the 10-points may be superfluous and that just having a 4-point scale (low, moderate, high and very high) would be less confusing for the users. This is something we hope to get more evidence for from our user research sessions. 
+The pollutant pages generally tested well during the first sprint. Participants struggled with the content of the pollutant banding table so we removed this from each page. 
+Io improve the flow and ensure consistency, we made sure they followed a set format: 
 
-### Health advice
+* what is the pollutant
+* what sources does it come from
+* what are the short exposure term health effects
+* what are the long term exposure health effects
 
-![Image showing health advice](../../images/sprint-one/health-advice.png "")
+### Pollutant bandings used in sprint one
 
-To give context to the DAQI scale, we have included health advice for the forecasted measurement. This text has been taken directly from the UK AIR website. In future iterations we may work on paring the text down to use plain English and improve readability. We have removed the advice for citizens with no health problems as we have a working assumption that we only need to advise people who may be in danger from the forecast air pollution levels. 
-
-The details component contains all the health advice for the DAQI scale. Again, we will visit the wording of this in future iterations. 
-
-### Measurement stations
-
-![Image showing the measurement stations table](../../images/sprint-one/measurement-stations.png "")
-
-We included the 3 nearest measuring stations to the citizen's search point. We did this as the closest may not be the most relevant station for the user to be aware of (for example, if the nearest station is based at an industrial site but the user is searching a residential address, the residential address may not be affected by the higher readings from the industrial site). Currently, for the prototype, these are fixed, hypothetical stations and not dynamic to any searched location. 
-
-### Station page
-
-![Page showing the current pollutant measurements at a station](../../images/sprint-one/measuring-station.png "")
-
-Each station is linked from the air quality location page. The station includes a description and the current measurement of each pollutant that is measured at that particular station.
-
-## Pollutants
-
-![Page showing the details about a pollutant](../../images/sprint-one/pollutant-detail.png "")
-
-The pollutant pages are designed so that they could be either a stand-alone page, navigated from a search engine, or as part of the user’s journey from an earlier point in the service. 
-
-The information has been written in collaboration with different sources and still needs to be checked by a subject matter expert (SME) on pollutants. 
-
-We have not included a ‘back’ button on this page as the user may have navigated to it from a search page. We may look to put a link to ‘Check the air quality in a local area’ though. We are still undecided about which page would constitute the homepage though. This will hopefully become clear as we test with more users. 
-
+![Pollutant bandings](../../images/sprint-two/pollutant-bandings.png "")
 
 

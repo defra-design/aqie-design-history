@@ -17,7 +17,7 @@ As a user I need to:
 
 ## Screens within the prototype
 
-<img src="../../images/sprint-one/scope.svg" alt="The scope of the Private BETA MVP" style="margin-bottom: 30px; width: 100%; height: auto;" />
+<img src="../../images/sprint-one/scope.svg" alt="Screens within the prototype" style="margin-bottom: 30px; width: 100%; height: auto;" />
 
 
 The private beta design is not intended to work as one transactional journey, any page within the service could be considered a first touch point.
