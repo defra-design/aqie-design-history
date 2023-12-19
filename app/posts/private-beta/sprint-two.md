@@ -68,13 +68,17 @@ Next, we tell the participants what this level of air pollution means for them a
 
 ### 'How air pollutants can affect your health’
 
-Next, we delved deeper into how the individual pollutants can affect the participants' health. This  material was previously on the right-hand side of the page under 'related content.' We hope that the heading of this section may encourage participants to select individual pollutants to find out more. In previous research, participants were often deterred from reading further because scientific terms made them think they wouldn’t understand it.
+Next, we delved deeper into how the individual pollutants can affect the participants' health. This  material was previously on the right-hand side of the page under 'related content.' We hope that the heading of this section may encourage participants to select individual pollutants to find out more. 
+
+In previous research, participants were often deterred from reading further because scientific terms made them think they wouldn’t understand it.
 
 ![How air pollutants can affect your health](../../images/sprint-two/pollutants-location.png "")
 
 ### ‘Air pollutants monitored nearby’
 
-We aimed to make this element more engaging, firstly by introducing the pollutant measurments to the page for each station. Secondly, by adding in 2 new columns: ‘trend’ and ‘rising’. We borrowed this concept from the Check for flooding service. We thought that this information would give the paticpants more context to the measurements rather than just displaying an arbitary number.
+We aimed to make this element more engaging, firstly by introducing the pollutant measurments to the page for each station. Secondly, by adding in 2 new columns: ‘trend’ and ‘rising’. 
+
+We borrowed this concept from the Check for flooding service. We thought that this information would give the paticpants more context to the measurements rather than just displaying an arbitary number.
 
 ![Air pollutants monitored nearby](../../images/sprint-two/monitored-near-by.png "")
 
@@ -86,7 +90,11 @@ We have a working hypothesis that we would only display monitoring sites that ar
 
 ![Tooltips](../../images/sprint-two/tooltips.png "")
 
-From previous user research, the information in the data table has proven to be hard to understand for most participants. We were struggling to think of a way to explain some of the columns without making the design too busy. Again, looking at the 'Check for flooding' service, we noticed they used tooltips in a very similar data table to ours. We had a productive chat with the interaction and content designer from the service who walked through their user research and accessibility findings. The use of tooltips had been mentioned by participants during our alpha user research. This made us comfortable in trying them in the iteration for sprint two. 
+From previous user research, the information in the data table has proven to be hard to understand for most participants. We were struggling to think of a way to explain some of the columns without making the design too busy. 
+
+Again, looking at the 'Check for flooding' service, we noticed they used tooltips in a very similar data table to ours. We had a productive chat with the interaction and content designer from the service who walked through their user research and accessibility findings. 
+
+As the use of tooltips had been mentioned by participants during our alpha user research. This made us comfortable in trying them in the iteration for sprint two. 
 
 ## Pollutant details page
 
