@@ -41,7 +41,7 @@ As a team, in Sprint three, we agreed the main points to focus on were:
 
 * adjusting the content heirarchy, whilst bringing more of the health information to the fore
 * exploring ways of increasing engagement with the pollutant details
-* optimising the content and layouts for mobile
+* optimising the content and layouts for tablet and mobile
 
 
 
