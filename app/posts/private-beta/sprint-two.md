@@ -80,8 +80,6 @@ We aimed to make this element more engaging, firstly by introducing the pollutan
 
 We also have a working hypothesis that we would only display monitoring sites that are within a certian distance for example, 75 miles and up to a maximum of 3.
 
-<img src="../../images/sprint-two/sites.svg" alt="Concept for monitoring sites" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
-
 ## Tooltips
 
 ![Tooltips](../../images/sprint-two/tooltips.png "")
