@@ -63,9 +63,9 @@ In order to improve user engement with hte pollutant details we add a teaset par
 
 ### Tablet and mobile optimisation
 
-We refined the display of data within the table, accomodating the smaller widths avaialble on tablets such as iPad Air.
+We refined the display of data within the table, accomodating the smaller widths available on tablets such as the iPad Air.
 
-At the mobile breakpoint we made the table responsive, hiding the pollutant header and applying a 100% width to the pollutant for example 'Ozone'. This forced the remaining columns 'Latest', 'Trend' and 'Level'to flow underneath.
+At the mobile breakpoint we made the table responsive, hiding the pollutant header and applying a 100% width to the pollutant title for example 'Ozone'. This forced the remaining columns 'Latest', 'Trend' and 'Level'to flow underneath.
 
 <img src="../../images/sprint-three/tablet-mobile-responsive.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
