@@ -22,25 +22,25 @@ author:
 
 Overall, our team observed improved participant engagement compared to the previous iteration. We noted that:
 
-* participants scrolled down the entirety of the page, despite the length of it
+* participants scrolled down the whole page, despite the length of it
 * there was increased engagement with the trend and levels of pollutants in the tables
 * the recognisable measuring station names provoked curiosity and commentary 
 
 ### What needs work
 
-Whilst we had increased particpant engament from sprint one, it was agreed that we needed to improve:
+Whilst we had increased particpant engagement from sprint one, it was agreed that we needed to improve:
 
-* participants are still not clicking through to deeper pollutant content without prompts
-* articipants are still put off by the scientific names of the pollutants
-* the details component with differing levels health information was not being accessed
+* participants clicking through to deeper pollutant content without prompts
+* participants not being put off by the scientific names of the pollutants
+* the details component with differing levels health information being accessed
 * mobile optimisation
 
 ## What we focussed on in sprint three
 
-As a team, in Sprint three, we agreed the main points to focus on were:  
+As a team, we agreed the main points to focus on were:  
 
-* adjusting the content heirarchy, whilst bringing more of the health information to the fore
-* exploring ways of increasing engagement with the pollutant details
+* adjusting the content heirarchy and making the health information more prominant
+* increasing participant engagement with the pollutant details
 * optimising the content and layouts for tablet and mobile
 
 
@@ -53,12 +53,12 @@ As a team, in Sprint three, we agreed the main points to focus on were:
 
 ### Health advice
 
-We swapped the health advice for the general population to be above the advice for people at risk. 
+We adjusted the heading for this section and swapped the health advice for the 'general population' to be above the advice for 'people at risk'. 
 
 
 ### Pollutant details
 
-In order to improve user engement with hte pollutant details we add a teaset paragraph to each pollutant. 
+In order to improve user engagement we added some microcopy below each pollutant. Our hypothesis is that that this will encourage the participants to feel comfortable with the level of detail and click the links. 
 
 
 ### Tablet and mobile optimisation
