@@ -32,8 +32,9 @@ As a team, in Sprint four, we agreed the main points to focus on were:
 * creating a teaser with the long term health effects for each pollutant, would this encourage further user engagement? 
 * would presenting each pollutant in the card component offer more affordance and increase engagement
 
+&nbsp;
 
-### 5 day forecast
+## 5 day forecast
 
 ![Part of the page showing the tabulated 5 day forecast](../../images/sprint-four/5dayforecast.png "")
 
@@ -62,8 +63,9 @@ We also customised the inset component used in the goverment design system to us
 
 ![Part of the page showing the relevant health advice](../../images/sprint-four/health-advice.png "")
 
+&nbsp;
 
-### Air pollutants monitored nearby
+## Air pollutants monitored nearby
 
 Whilst not part of original sprint goal we wanted to see if tabulating the monitoring stations would help with the length of the template within the larger viewports e.g. desktop and tablet. The nearest monitoring station is displayed by default, followed by the next and so on. 
 
@@ -71,13 +73,15 @@ Imporantly we moved this further up the template so that user could relate this 
 
 ![Part of the page showing the tabulated monitoring stations](../../images/sprint-four/polluntants-monitored.png "")
 
+&nbsp;
 
-### Learn how air pollutants can affect your health
+## Learn how air pollutants can affect your health
 
 We decided to try and increase engagement with the content that sits below these links. The first was to bring the long term health effects as a teaser, secondly to use a card compoent used on other goverment websites. 
 
 ![Part of the page showing the pollutant links as card components](../../images/sprint-four/pollutants.png "")
 
+&nbsp;
 
 
 ## Location template in full
