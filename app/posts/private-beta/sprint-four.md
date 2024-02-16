@@ -9,7 +9,7 @@ author:
 
 ## Research goals from sprint three
 
-* Does providing summaries of pollutant sources and their health impacts improve participant engagement with the underlying pollutant pages compared to just displaying the pollutant names?
+* Does providing summaries of pollutant sources improve participant engagement with the pollutant pages compared to just displaying the pollutant names?
 * Can participants effectively follow content and messaging on smaller screens?
 * Are the data tables legible on mobile devices?
 * Do links, details components, and tooltips remain visible and accessible to participants on mobile screens?
