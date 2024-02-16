@@ -9,20 +9,29 @@ author:
 
 ## Research goals from sprint three
 
-* Add in research goals
+* Does providing summaries of pollutant sources and their health impacts improve participant engagement with the underlying pollutant pages compared to just displaying the pollutant names?
+* Can participants effectively follow content and messaging on smaller screens?
+* Are the data tables legible on mobile devices?
+* Do links, details components, and tooltips remain visible and accessible to participants on mobile screens?
 
 ### What worked well
 
-Need to add what worked well from sprint 3
-
-* what worked
+This was the first user research session conducted to test the responsiveness of our design. We found: 
+* the design worked well across different devices
+* users scrolled, unprompted, to the data tables and were engaged by the location and information provided by the monitoring stations
+* tablet users exhibited notably higher interaction rates with the prototype compared to other device users.
+* the wording and colour coding of the daily air quality index (DAQI) bar were positive
 
 
 ### What needs work
 
-Need to add what didn't work:
+Our design worked effectively on mobile devices and responsiveness did not raise any significant concerns. However, there were areas where we identified potential improvements:
 
-* what didn't work item
+* mobile users were less likely to select the tooltips and details components 
+* the proximity of the monitoring stations and the accuracy for their location drew engagement
+* the pollution summaries worked well and prompted conversation, but users still didn’t select the links to read more
+* users were still unsure on the health messaging and what levels of exercise would be safe
+
 
 ## What we focussed on in sprint four
 
