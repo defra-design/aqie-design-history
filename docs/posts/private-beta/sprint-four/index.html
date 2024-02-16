@@ -93,12 +93,12 @@
 <li>the pollution summaries worked well and prompted conversation, but users still didn’t select the links to read more</li>
 <li>users were still unsure on the health messaging and what levels of exercise would be safe</li>
 </ul>
-<h2 id="what-we-focussed-on-in-sprint-four" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#what-we-focussed-on-in-sprint-four"><span>What we focussed on in sprint four</span></a></h2>
+<h2 id="what-we-focused-on-in-sprint-four" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#what-we-focused-on-in-sprint-four"><span>What we focused on in sprint four</span></a></h2>
 <p class="govuk-body">As a team, in Sprint four, we agreed the main points to focus on were:</p>
 <ul class="govuk-list govuk-list--bullet">
 <li>our first iteration of implementing a 5 day forecast</li>
-<li>creating a teaser with the long term health effects for each pollutant, would this encourage further user engagement?</li>
-<li>would presenting each pollutant in the card component offer more affordance and increase engagement</li>
+<li>creating microcopy of the long term health effects for each pollutant to this encourage further user engagement</li>
+<li>presenting each pollutant in the card component to offer increased engagement</li>
 </ul>
 <p class="govuk-body"> </p>
 <h2 id="5-day-forecast" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#5-day-forecast"><span>5 day forecast</span></a></h2>
@@ -109,23 +109,26 @@
 <li>Tomorrow</li>
 <li>Outlook</li>
 </ul>
-<p class="govuk-body">This was influenced by a number of factors, the first being the way flooding had tackled this for the flood risk forecast.</p>
-<p class="govuk-body">Secondly when the viewport changes to mobile the tabs stack on top of each other and this would negate a phenomenon where each day could or most likely be low. A situation where Mon low, Tue low, Wed low, etc.</p>
-<p class="govuk-body">Lastly the UK summary provided by the Met Office is supplied in three parts today, tomorrow and outlook. This would enable us to relate the air pollution forecast with the UK pollution summary.</p>
+<p class="govuk-body">This was influenced by:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>the way flooding had tackled this for the flood risk forecast</li>
+<li>the view on a mobile stacks the tabs on top of each other, which would negate the common situation where each day would be low and the messaging become repetative.</li>
+<li>the UK summary, which is provided by the Met Office is supplied in three parts ‘today, tomorrow and outlook’. This would enable us to relate the air pollution forecast with the UK pollution summary.</li>
+</ul>
 <h3 id="daqi-value" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#daqi-value"><span>DAQI value</span></a></h3>
-<p class="govuk-body">When we began to mock up our intial designs as wireframes we noticed how the number in isolation became meaningless without the scale 1-10 that we had in previous interations. For this sprint we decided to drop the DAQI value and only use Low, Moderate, High and Very high.</p>
+<p class="govuk-body">When we began to mock up our initial designs as wireframes we noticed how the number in isolation became meaningless without the scale 1-10 that we had in previous iterations. For this sprint we decided to drop the DAQI value and only use Low, Moderate, High and Very high.</p>
 <h3 id="health-advice" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#health-advice"><span>Health advice</span></a></h3>
-<p class="govuk-body">For each forecast we applied some logic so if it’s Low we wouldn’t display health advice. However if it’s moderate or above we would display the appropriate advice.</p>
-<p class="govuk-body">We also customised the inset component used in the goverment design system to use the colour of the relevant forecast. Would this help relate the advice with the forecast?</p>
+<p class="govuk-body">For each forecast we applied some logic so, if it’s Low we wouldn’t display health advice. However, if it’s moderate or above we would display the appropriate advice.</p>
+<p class="govuk-body">We also customised the inset component used in the government design system to use the colour of the relevant forecast. Would this help relate the advice with the forecast?</p>
 <figure><img src="../../images/sprint-four/health-advice.png" alt="Part of the page showing the relevant health advice"></figure>
 <p class="govuk-body"> </p>
 <h2 id="air-pollutants-monitored-nearby" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#air-pollutants-monitored-nearby"><span>Air pollutants monitored nearby</span></a></h2>
-<p class="govuk-body">Whilst not part of original sprint goal we wanted to see if tabulating the monitoring stations would help with the length of the template within the larger viewports e.g. desktop and tablet. The nearest monitoring station is displayed by default, followed by the next and so on.</p>
-<p class="govuk-body">Imporantly we moved this further up the template so that user could relate this element to the forecast. In the previous sprint a behaviour was noted where participants were scrolling up and down to compare the forecast with the pollutants monitored near by.</p>
+<p class="govuk-body">Whilst not part of original sprint goal we wanted to see if tabulating the monitoring stations would help with the length of the template within the larger viewports, for example, desktop and tablet. The nearest monitoring station is displayed by default, followed by the next and so on.</p>
+<p class="govuk-body">Importantly we moved this further up the template so that user could relate this element to the forecast. In the previous sprint a behaviour was noted where participants were scrolling up and down to compare the forecast with the pollutants monitored near by.</p>
 <figure><img src="../../images/sprint-four/polluntants-monitored.png" alt="Part of the page showing the tabulated monitoring stations"></figure>
 <p class="govuk-body"> </p>
 <h2 id="learn-how-air-pollutants-can-affect-your-health" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#learn-how-air-pollutants-can-affect-your-health"><span>Learn how air pollutants can affect your health</span></a></h2>
-<p class="govuk-body">We decided to try and increase engagement with the content that sits below these links. The first was to bring the long term health effects as a teaser, secondly to use a card compoent used on other goverment websites.</p>
+<p class="govuk-body">We decided to try and increase engagement with the content that sits below these links. The first was to highlight the long term health effects in the microcopy, secondly a card component was used.</p>
 <figure><img src="../../images/sprint-four/pollutants.png" alt="Part of the page showing the pollutant links as card components"></figure>
 <p class="govuk-body"> </p>
 <h2 id="location-template-in-full" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#location-template-in-full"><span>Location template in full</span></a></h2>
