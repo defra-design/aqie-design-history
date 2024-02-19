@@ -19,7 +19,7 @@ author:
 This was the first user research session conducted to test the responsiveness of our design. We found: 
 * the design worked well across different devices
 * users scrolled, unprompted, to the data tables and were engaged by the location and information provided by the monitoring stations
-* tablet users exhibited notably higher interaction rates with the prototype compared to other device users.
+* tablet users exhibited notably higher interaction rates with the prototype compared to other device users
 * the wording and colour coding of the daily air quality index (DAQI) bar were positive
 
 
