@@ -58,7 +58,7 @@ This was influenced by:
 * the view on a mobile stacks the tabs on top of each other, which would negate the common situation where each day would be low and the messaging become repetative. 
 * the UK summary, which is provided by the Met Office is supplied in three parts 'today, tomorrow and outlook'. This would enable us to relate the air pollution forecast with the UK pollution summary. 
 
-### DAQI value
+### DAQI scale
 
 When we began to mock up our initial designs as wireframes we noticed how the number in isolation became meaningless without the scale 1-10 that we had in previous iterations. For this sprint we decided to drop the DAQI value and only use Low, Moderate, High and Very high. 
 
