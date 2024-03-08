@@ -19,7 +19,6 @@ author:
 
 ### What worked well
 
-
 Overall, our team observed improved participant engagement compared to the previous iteration. We noted that:
 
 * participants scrolled down the whole page, despite the length of it

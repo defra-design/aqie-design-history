@@ -13,6 +13,6 @@ related:
       items:
         - text: Prototype on GitHub
           href: https://github.com/defra-design/check-local-aq
-        - text: "Prototype (password: `n1tr0g3n`)"
+        - text: "Prototype (password: `air`)"
           href: https://check-local-aq-c31e075e52e2.herokuapp.com/
 ---

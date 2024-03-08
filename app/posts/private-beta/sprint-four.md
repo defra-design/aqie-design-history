@@ -14,6 +14,8 @@ author:
 * Are the data tables legible on mobile devices?
 * Do links, details components, and tooltips remain visible and accessible to participants on mobile screens?
 
+## Research findings
+
 ### What worked well
 
 This was the first user research session conducted to test the responsiveness of our design. We found: 
