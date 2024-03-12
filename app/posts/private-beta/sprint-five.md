@@ -31,7 +31,7 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 After an interesting round of user research, we found that: 
 * users were clear on the forecast
 * users interacted with the measurements section
-* * the additional range numbers helped to clarify the levels shown for users
+* the additional range numbers helped to clarify the levels shown for users
 users saw information shown in tabs in the monitoring section (other locations)
 
 
