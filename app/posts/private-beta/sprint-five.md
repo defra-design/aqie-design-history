@@ -45,7 +45,7 @@ While the design tested well, we found that the:
 
 ## What we focused on in sprint five
 
-As a team, in Sprint five, we agreed the main points to focus on were:  
+As a team, in sprint five, we agreed the main points to focus on were:  
 
 * adding in additonal content to address short and long term exposure to risk
 * add in content to give context to the varying levels of the DAQI
