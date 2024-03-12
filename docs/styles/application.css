@@ -49,3 +49,20 @@
     display: none;
   }
 }
+figure {
+  margin-top: 25px;
+}
+@media (min-width: 40.0625em) {
+  figure {
+    margin-top: 40px;
+  }
+}
+
+.app-prose-scope figure {
+  margin-bottom: 40px;
+}
+@media (min-width: 40.0625em) {
+  .app-prose-scope figure {
+    margin-bottom: 60px;
+  }
+}

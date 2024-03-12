@@ -20,24 +20,22 @@ We focussed on testing our changes to the forecast, including:
 We also tested how the tabulated monitoring stations were viewed and understood.
 
 
-
-
-
-
 ## Research findings
 
 ### What worked well
 
 After an interesting round of user research, we found that: 
+
 * users were clear on the forecast
 * users interacted with the measurements section
 * the additional range numbers helped to clarify the levels shown for users
-users saw information shown in tabs in the monitoring section (other locations)
+* users saw information shown in tabs in the monitoring section (other locations)
 
 
 ### What needs work
 
 While the design tested well, we found that the:
+
 * amount of cumulative text under tabs and repetition of tab text will need to be considered
 * mobile users were still less likely to pick up on finer interaction details, for example, tool tips and expanders
 * low digitally skilled users found prototype itself usable and proposition easy to understand, but missed links,expanders and tool tips
@@ -53,23 +51,11 @@ As a team, in sprint five, we agreed the main points to focus on were:
 
 ### Searching for postcodes in Northern Ireland 
 
-<<<<<<< Updated upstream
 The [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api) only supports places and locations within England, Wales and Scotland. A requirement of the service is also to support locations within Northern Ireland. In the long term we would like a gazetteer that supports all locations and postcodes across the UK. However, to meet the requirement in the private beta we have opted to allow the user to query locations and postcodes in England, Wales and Scotland using [OS Names API](https://www.ordnancesurvey.co.uk/products/) and postcodes in Northern Ireland using [postcodes.io](https://postcodes.io/).
-=======
-The [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api) only supports places and locations within England, Wales and Scotland. A requirement of the service is also to support locations within Northern Ireland. In the long term we would like a gazetteer that supports all locations and postcodes across the UK, however to meet the requirement in the private beta we have opted to allow the user to query locations and postcodes in England, Wales and Scotland using [OS Names API](https://www.ordnancesurvey.co.uk/products/) and postcodes in Northern Ireland using [postcodes.io](https://postcodes.io/).
 
+![Searching for a postcode in Northern Ireland](../../images/sprint-five/ni-postcode-search.png "Searching for postcodes in Northern Ireland ")
 
-
-![Searching for a postcode in Northern Ireland](../../images/sprint-five/ni-postcode-search.png
- "Searching for postcodes in Northern Ireland ")
-
-
-
- ![Searching for a location in England, Scotland and Wales](../../images/sprint-five/where-do-you-want-to-check.png
- "Searching for a location in England, Scotland and Wales")
-
-
->>>>>>> Stashed changes
+![Searching for a location in England, Scotland and Wales](../../images/sprint-five/where-do-you-want-to-check.png "Searching for a location in England, Scotland and Wales")
    
 
 ### Health advice
@@ -86,9 +72,9 @@ We hypothesised that this would:
 
 ![5 day forecast and moderate health advice](../../images/sprint-five/moderate-forecast.png "5 day forecast and moderate health advice")
 
-![5 day forecast and low health advice](../../images/sprint-five/moderate-forecast.png "5 day forecast and moderate health advice")
+![5 day forecast and low health advice](../../images/sprint-five/low-forecast.png "5 day forecast and moderate health advice")
 
-### Health effects
+### How air pollution may affect health
 
 Long term health effects of air pollution is information that many of our users are unaware of. The health advice that we gave alongside the DAQI was only for short term exposure. To help improve engagement and education, we front loaded the page with a long term health effects summary. 
 

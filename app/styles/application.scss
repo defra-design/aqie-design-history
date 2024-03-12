@@ -3,3 +3,12 @@ eleventyExcludeFromCollections: true
 ---
 @import "govuk-frontend/govuk/base";
 @import "../_components/all";
+
+
+figure {
+    @include govuk-responsive-margin(7, "top");
+}
+
+.app-prose-scope figure {
+    @include govuk-responsive-margin(9, "bottom");
+}
