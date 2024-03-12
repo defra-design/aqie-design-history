@@ -51,11 +51,25 @@ As a team, in sprint five, we agreed the main points to focus on were:
 * add in content to give context to the varying levels of the DAQI
 * changed the details component for further health information to a link to a seperate page
 
-&nbsp;
+### Searching for postcodes in Northern Ireland 
 
-### Searching for Northern Ireland postcodes
-
+<<<<<<< Updated upstream
 The [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api) only supports places and locations within England, Wales and Scotland. A requirement of the service is also to support locations within Northern Ireland. In the long term we would like a gazetteer that supports all locations and postcodes across the UK. However, to meet the requirement in the private beta we have opted to allow the user to query locations and postcodes in England, Wales and Scotland using [OS Names API](https://www.ordnancesurvey.co.uk/products/) and postcodes in Northern Ireland using [postcodes.io](https://postcodes.io/).
+=======
+The [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api) only supports places and locations within England, Wales and Scotland. A requirement of the service is also to support locations within Northern Ireland. In the long term we would like a gazetteer that supports all locations and postcodes across the UK, however to meet the requirement in the private beta we have opted to allow the user to query locations and postcodes in England, Wales and Scotland using [OS Names API](https://www.ordnancesurvey.co.uk/products/) and postcodes in Northern Ireland using [postcodes.io](https://postcodes.io/).
+
+
+
+![Searching for a postcode in Northern Ireland](../../images/sprint-five/ni-postcode-search.png
+ "Searching for postcodes in Northern Ireland ")
+
+
+
+ ![Searching for a location in England, Scotland and Wales](../../images/sprint-five/where-do-you-want-to-check.png
+ "Searching for a location in England, Scotland and Wales")
+
+
+>>>>>>> Stashed changes
    
 
 ### Health advice
@@ -70,11 +84,14 @@ We hypothesised that this would:
 * bring forward the most important advice to the main page
 
 
+![5 day forecast and moderate health advice](../../images/sprint-five/moderate-forecast.png "5 day forecast and moderate health advice")
+
+![5 day forecast and low health advice](../../images/sprint-five/moderate-forecast.png "5 day forecast and moderate health advice")
 
 ### Health effects
 
 Long term health effects of air pollution is information that many of our users are unaware of. The health advice that we gave alongside the DAQI was only for short term exposure. To help improve engagement and education, we front loaded the page with a long term health effects summary. 
 
-
+![How air pollution may affect health](../../images/sprint-five/how-air-pollution.png "How air pollution may affect health")
 
 

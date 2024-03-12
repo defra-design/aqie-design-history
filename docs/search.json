@@ -56,12 +56,28 @@
     "templateContent": "",
     "url": "/aqie-design-history/citizen-alpha/"
   },  {
+<<<<<<< Updated upstream
     "title": "Citizen Private Beta",
 "description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
     "date": "14 December 2023",
     "templateContent": "",
     "url": "/aqie-design-history/private-beta/"
+=======
+    "title": "Sprint one",
+"section": "Citizen Private Beta",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "30 November 2023",
+    "templateContent": "sprint goals were centered around primary user needs identified beta planning post alpha need : check air quality chosen local area forecast measured understand how can affect people care about different pollutants sources they short term long health screens within prototype private design intended work one transactional journey any page service could considered first touch point landing have kept this very simple used pattern documented government system working hypothesis that may required whether amalgamate with where want just remove entirely are potential ideas test iterate upon future sprints get evidence name title now whilst gather use phrase location search decided follow similar by able utilise their research help us allows complete action easily possible additionally integrated os names api feature users locations using either place postcodes return many results utilising its functionality filter local_type: parameter ensuring only desired types displayed filters prototype: city town village suburban_area postcode airport filtering data hub disambiguation apis multiple matches given request enabling implement provides district_borough county_unitary gazetteer each result designed logic identifies returns district borough from available automatically defaults unitary authority approach enables differentiate between titled areas example distinguishing millbrook tameside cornwall keep clean implemented progressive disclosures certain elements our content will add context engaged reduce cognitive overload others moved information effects measurements separate pages when specific ability daily index daqi while parallel piece social into being carried out left 10 scale however well accessibility issues believe points superfluous having 4 low moderate high would less confusing something hope more sessions advice give included forecasted measurement text been taken directly uk website iterations paring down plain english improve readability removed citizens problems assumption advise who danger pollution levels details component contains all again visit wording stations 3 nearest measuring did closest most relevant station aware based industrial site searching residential address affected higher readings currently these fixed hypothetical dynamic searched linked includes description current pollutant particular stand alone navigated engine part earlier written collaboration still checked subject matter expert sme button look put link though undecided which constitute homepage hopefully become clear",
+    "url": "/aqie-design-history/posts/private-beta/sprint-one/"
+  },  {
+    "title": "Sprint two",
+"section": "Citizen Private Beta",    "layout": "page",
+    "hasFrontmatterDate": true,
+    "date": "14 December 2023",
+    "templateContent": "research goals from sprint one postcode look sufficient looking air quality participants understand daily qulaity index daqi score levels relevant them ​ people read health advice they regard engage with measurement stations location readings give credibility come away appreciating that poor poses risk findings what worked well most commented prototype keeping government websites noted that: site credible easy use search did present any problems everyone entered without prompts content clear straight forward information engaging even showed signs overturning some myths creating interest behavioural change needs work whilst beginning journey tested once arrived forecast noted: scientific language especially around pollutant names measures presented barrier monitoring process data collection may high which can lead key being completely ignored since were fictional have perceived connection under related often overlooked focussed two team agreed main points focus were: flow affected discouraged reading possibly due positioning terms could increase engagement by emphasisng measurements rather than would using accurate make more relatable screens within updated this page easier learn about their area reorganising hierarchy putting all branching pollutants adapted headings show logical participant follow pollution today level seem interested after entering moderate next tell means highlight those who concerns 'how affect your delved deeper into how individual material previously right hand side hope heading section encourage select find out previous deterred further because made think monitored aimed element firstly introducing measurments each station secondly adding 2 new columns: borrowed concept check flooding service thought paticpants context just displaying arbitary number working hypothesis only display sites are certain distance example 75 miles maximum 3 tooltips user table proven hard struggling way explain columns making design too busy again noticed used very similar ours had productive chat interaction designer walked through accessibility been mentioned during our alpha us comfortable trying iteration details pages generally first struggled banding removed improve ensure consistency sure followed set format: sources does short exposure term effects long bandings",
+    "url": "/aqie-design-history/posts/private-beta/sprint-two/"
+>>>>>>> Stashed changes
   },  {
     "title": "Sprint three",
 "section": "Citizen Private Beta",    "layout": "page",
@@ -81,6 +97,17 @@
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "8 March 2024",
+<<<<<<< Updated upstream
     "templateContent": "research goals from sprint four tested changes forecast including: today tomorrow outlook tabs only displaying health advice highest reading daily air quality index daqi without numbers changed position pollutant summaries click through links also how tabulated monitoring stations were viewed understood conducted with mix participants including those low digital skills findings what worked well after interesting round user found that: users clear interacted measurements section additional range helped clarify levels shown saw information other locations needs work while design that : amount cumulative text under repetition tab will need considered mobile still less likely pick finer interaction details example tool tips expanders digitally skilled prototype itself usable proposition easy understand missed focused five team agreed main points focus were: adding additonal content address short long term exposure risk add give context varying component further link seperate page   searching northern ireland postcodes os names api supports places within england wales scotland requirement service support would like gazetteer all across uk however meet private beta have opted allow query using postcodes.io engaging contained different pollution removing replacing dynamic displayed any then below hypothesised this would: reduce weight especially prevent repeated bring forward most important effects many our are unaware gave alongside help improve engagement education front loaded summary",
+=======
+    "templateContent": "research goals from sprint four add findings what worked well something here: needs work neeeds item focused five team agreed main points focus were: point searching postcodes northern ireland os names api only supports places locations within england wales scotland requirement service also support long term would like gazetteer that all across uk however meet private beta have opted allow user query using postcodes.io location health advice bit about changing based highest score forecast show grab moderate happpens when low 5 day effects template how air pollution may affect",
+>>>>>>> Stashed changes
     "url": "/aqie-design-history/posts/private-beta/sprint-five/"
+  },  {
+    "title": "Citizen Private Beta",
+"description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "8 March 2024",
+    "templateContent": "",
+    "url": "/aqie-design-history/private-beta/"
   }]
