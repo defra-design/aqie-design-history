@@ -39,7 +39,7 @@ users saw information shown in tabs in the monitoring section (other locations)
 
 While the design tested well, we found that the:
 * amount of cumulative text under tabs and repetition of tab text will need to be considered
-* mobile users still less likely to pick up on finer interaction details, for example, tool tips and expanders
+* mobile users were still less likely to pick up on finer interaction details, for example, tool tips and expanders
 * low digitally skilled users found prototype itself usable and proposition easy to understand, but missed links,expanders and tool tips
 
 
