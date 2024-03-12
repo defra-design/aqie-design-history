@@ -9,7 +9,9 @@ author:
 
 ## Research goals from sprint four
 
-We tested changes to the forecast, including:
+The research was conducted with a mix of participants, including those with low digital skills.
+
+We focussed on testing our changes to the forecast, including:
 * Today, Tomorrow and Outlook tabs
 * only displaying the health advice for the highest reading
 * Daily Air Quality Index (DAQI) without numbers  
@@ -17,7 +19,7 @@ We tested changes to the forecast, including:
 
 We also tested how the tabulated monitoring stations were viewed and understood.
 
-The research was conducted with a mix of participants, including those with low digital skills.
+
 
 
 
