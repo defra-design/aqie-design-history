@@ -43,8 +43,6 @@ As a team, in Sprint four, we agreed the main points to focus on were:
 * creating microcopy of the long term health effects for each pollutant to this encourage further user engagement 
 * presenting each pollutant in the card component to offer increased engagement
 
-&nbsp;
-
 ## 5 day forecast
 
 ![Part of the page showing the tabulated 5 day forecast](../../images/sprint-four/5dayforecast.png "")
@@ -73,7 +71,6 @@ We also customised the inset component used in the government design system to u
 
 ![Part of the page showing the relevant health advice](../../images/sprint-four/health-advice.png "")
 
-&nbsp;
 
 ## Air pollutants monitored nearby
 
@@ -83,15 +80,12 @@ Importantly we moved this further up the template so that user could relate this
 
 ![Part of the page showing the tabulated monitoring stations](../../images/sprint-four/polluntants-monitored.png "")
 
-&nbsp;
 
 ## Learn how air pollutants can affect your health
 
 We decided to try and increase engagement with the content that sits below these links. The first was to highlight the long term health effects in the microcopy, secondly a card component was used. 
 
 ![Part of the page showing the pollutant links as card components](../../images/sprint-four/pollutants.png "")
-
-&nbsp;
 
 
 ## Location template in full
