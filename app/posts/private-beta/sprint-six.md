@@ -26,26 +26,33 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 
 After an interesting round of user research, we found that: 
 
-* stuff goes here
+* users were clear on the forecast
+* users interacted with the measurements section
+* users are broadly understanding the prototype messaging
+* people are connecting the health information to the people most at risk of poor air
+
 
 ### What needs work
 
 While the design tested well, we found that the:
+* users did not engage with the descriptive text and still required context on the DAQI scale
+* ‘Outlook’ was seen as ‘Day 3’ rather than the remaining few days
+* long term heath information is not being seen or registered
+* tooltips are still being passed over
 
-* stuff goes here
 
 
 ## What we focused on in sprint six
 
 As a team, in sprint six, we agreed the main points to focus on were:  
 
-* adding a scale to indicate the full extent of the daily air quality index
+* adding a scale to indicate the full extent of the DAQI
 * removing the 5 day forecast from the tabs and having a static table containing the 4 day forecast
 * putting the UK forecast into the tab component
 
 ### Adding a scale to today's forecast 
 
-Insert James's magic here
+In previous sprints, we have removed the DAQI scale. However, the users wanted more context for the forecast, specifically how far the scale went up. In sprint 5 we added some text to explain the DAQI scale and levels, but this text was being missed by the users. So, in this sprint we decided to add back in a visual scale which would give the user the current reading on the scale. 
 
 ![Today's forecast with scale](../../images/sprint-six/todays-forecast.png "")
 
@@ -53,7 +60,9 @@ Insert James's magic here
 
 ### 4 day forecast
 
-Insert James's magic here
+During sprint 5, we found that users were looking at the 3 tabs for the forecast (‘Today, Tomorrow, Outlook’) and interpreting ‘Outlook’ as a single day, as opposed to the remaining 3 remaining days of the 5 day forecast. 
+
+We decided to split the forecast to‘Today’ which was shown on the DAQI scale, with the remaining days of the forecast underneath on a separate scale. 
 
 ![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
 
@@ -61,7 +70,7 @@ Insert James's magic here
 
 ### UK forecast
 
- Insert James's magic here
+The UK forecast, which is supplied by the Met office was kept in the format we receive which is ‘Toady, Tomorrow and Outlook’.
 
 ![Forecast for the next 4 days](../../images/sprint-six/uk-forecast.png "")
 
