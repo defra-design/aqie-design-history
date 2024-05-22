@@ -52,15 +52,15 @@ As a team in sprint 7, we agreed the main points to focus on were:
 
 ### Only showing the nearest monitoring area
 
-Due to the automatic urban and rural network (AURN) monitoring sites being spread widely across the country, it’s unusual for a user to have multiple relevant monitoring areas nearby. Therefore, instead of displaying information for their nearest 3 monitoring areas, we only focused on the closest area. 
+Due to the automatic urban and rural network (AURN) monitoring sites being spread widely across the country, it’s unusual for a user to have more than one relevant monitoring area nearby. Therefore, instead of displaying information for their nearest 3 monitoring areas, we only focused on their closest area. 
 
 ![Today's forecast with scale](../../images/sprint-six/todays-forecast.png "")
 
    
 
-### displaying a chart with the past 24 hours of pollutant data
+### Displaying a chart with the past 24 hours of pollutant data
 
-We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the main pollutants in their area better. This could help give context to the pollutant levels throughout the day and potentially help users think about what may be causing them to rise or fall and therefore engage more with the concept of air quality.
+We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the  pollutants monitored in their area better. This could help give context to the pollutants and potentially help users think about what may be causing them to rise or fall and therefore engage more with the concept of air quality.
 
 ![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
 
