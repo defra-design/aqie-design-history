@@ -7,11 +7,12 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint six
+## Research goals from sprint 6
 
-The research was conducted with a mix of participants, including those with low digital skills.
+This research was conducted with a mix of participants living in rural and urban areas of Northern Ireland.
 
 We focussed on testing our changes to the forecast, including:
+* how the Northern Ireland participants managed the search function
 * Today, Tomorrow and Outlook tabs
 * only displaying the health advice for the highest reading
 * Daily Air Quality Index (DAQI) without numbers  
@@ -24,20 +25,27 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 
 ### What worked well
 
-After an interesting round of user research, we found that: 
+In this round of research, we found:
 
-* stuff goes here
+* participants all managed to find the location they wanted to search for in Northern Ireland
+* the new style DAQI scale was understood well
+* users all understood the dual forecast 
+* the messaging in the prototype is understood
+* people are making the connection between poor air quality and at risk individuals
+
 
 ### What needs work
 
-While the design tested well, we found that the:
+This prototype tested very well and there weren’t any major failings. However, we need to do some more ideation around:
+* how to engage users around the localised measurements
+* how we can use historical data to help engage and improve the air quality messaging
+* can we introduce other features, such as seasonal air quality information
 
-* stuff goes here
 
 
-## What we focused on in sprint seven
+## What we focused on in sprint 7
 
-As a team, in sprint six, we agreed the main points to focus on were:  
+As a team, in sprint 7, we agreed the main points to focus on were:  
 
 * adding a scale to indicate the full extent of the daily air quality index
 * removing the 5 day forecast from the tabs and having a static table containing the 4 day forecast
