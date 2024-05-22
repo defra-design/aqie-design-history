@@ -27,7 +27,7 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 
 In this round of research, we found:
 
-* participants all managed to find the location they wanted to search for in Northern Ireland
+* all the participants managed to find the location they wanted to search for in Northern Ireland
 * the new style DAQI scale was understood well
 * users all understood the dual forecast 
 * the messaging in the prototype is understood
@@ -47,36 +47,20 @@ This prototype tested very well and there weren’t any major failings. However,
 
 As a team, in sprint 7, we agreed the main points to focus on were:  
 
-* adding a scale to indicate the full extent of the daily air quality index
-* removing the 5 day forecast from the tabs and having a static table containing the 4 day forecast
-* putting the UK forecast into the tab component
+* only showing the nearest monitoring area
+* displaying a chart with the past 24 hours of pollutant data
 
-### Adding a scale to today's forecast 
+### Only showing the nearest monitoring area
 
-Insert James's magic here
+Due to the automatic urban and rural network (AURN) monitoring sites being spread widely across the country, it’s unusual for a user to have multiple relevant monitoring areas nearby. Therefore, instead of displaying information for their nearest 3 monitoring areas, we only focused on the closest area. 
 
 ![Today's forecast with scale](../../images/sprint-six/todays-forecast.png "")
 
    
 
-### 4 day forecast
+### displaying a chart with the past 24 hours of pollutant data
 
-Insert James's magic here
+We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the main pollutants in their area better. This could help give context to the pollutant levels throughout the day and potentially help users think about what may be causing them to rise or fall and therefore engage more with the concept of air quality.
 
 ![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
-
-
-
-### UK forecast
-
- Insert James's magic here
-
-![Forecast for the next 4 days](../../images/sprint-six/uk-forecast.png "")
-
-
-
-### Location template in full
-
-![location template](../../images/sprint-six/location-template.png "location template")
-
 
