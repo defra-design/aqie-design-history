@@ -60,7 +60,7 @@ Due to the automatic urban and rural network (AURN) monitoring sites being sprea
 
 ### Displaying a chart with the past 24 hours of pollutant data
 
-We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the  pollutants monitored in their area better. This could help give context to the pollutants and potentially help users think about what may be causing them to rise or fall and therefore engage more with the concept of air quality.
+We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the  pollutants monitored in their area better. This could help give context to the pollutants and potentially help users think about what may be causing them to rise or fall and therefore engage more with the concept of air quality. We chose to use a chart rather than a table as it is more visual. The chart design was adapted from the accessible charts that appear in the Flooding service. 
 
 ![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
 
