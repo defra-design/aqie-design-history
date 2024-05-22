@@ -45,7 +45,7 @@ This prototype tested very well and there weren’t any major failings. However,
 
 ## What we focused on in sprint 7
 
-As a team, in sprint 7, we agreed the main points to focus on were:  
+As a team in sprint 7, we agreed the main points to focus on were:  
 
 * only showing the nearest monitoring area
 * displaying a chart with the past 24 hours of pollutant data
