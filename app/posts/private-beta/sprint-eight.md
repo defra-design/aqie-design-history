@@ -1,5 +1,5 @@
 ---
-title: Sprint seven
+title: Sprint eight
 layout: page
 date: 2024-05-22
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint six
+## Research goals from sprint seven
 
 This research was conducted with a mix of participants living in rural and urban areas of Northern Ireland.
 
@@ -43,9 +43,9 @@ This prototype tested very well and there weren’t any major failings. However,
 
 
 
-## What we focused on in sprint seven
+## What we focused on in sprint eight
 
-As a team in sprint seven, we agreed the main points to focus on were:  
+As a team in sprint eight, we agreed the main points to focus on were:  
 
 * only showing the nearest monitoring area
 * displaying a chart with the past 24 hours of pollutant data
