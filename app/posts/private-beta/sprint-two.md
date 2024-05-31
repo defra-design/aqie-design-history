@@ -23,7 +23,7 @@ Most of the participants commented that the prototype was in keeping with govern
 
 * the site is credible and easy to use
 * the location search did not present any problems; everyone entered a postcode without prompts
-* the site content was clear, straight forward and easy to understand
+* the site content was straight forward and easy to understand
 * The health information was engaging and even showed signs of overturning some air quality myths and creating interest in behavioural change
 
 ### What needs work
