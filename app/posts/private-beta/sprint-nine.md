@@ -1,5 +1,5 @@
 ---
-title: Sprint nine
+title: Sprint 9
 layout: page
 date: 2024-05-22
 author:
@@ -7,18 +7,16 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint eight
+## Research goals from sprint 8
 
-This research was conducted with a mix of participants living in rural and urban areas of Northern Ireland.
+This research was conducted with a mix of participants living in the South West of England.
 
-We focussed on testing our changes to the forecast, including:
-* how the Northern Ireland participants managed the search function
-* Today, Tomorrow and Outlook tabs
-* only displaying the health advice for the highest reading
-* Daily Air Quality Index (DAQI) without numbers  
-* the changed position of the pollutant summaries and click-through links
+We focussed on testing: 
+* a 24 hour view of historical local air pollutant levels
+* using charts rather than a table to see if the visual approach worked better
+* removing the tooltips for explaining elements of the charts and putting the content ‘inline’ instead
+* displaying monitoring data for the closest monitoring area only 
 
-We also tested how the tabulated monitoring stations were viewed and understood.
 
 
 ## Research findings
@@ -26,24 +24,24 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 ### What worked well
 
 In this round of research, we found:
+* the daily air quality index (DAQI) forecast, 4 day forecast and the Met Office forecast are still understood
+* the top level of health advice is understood
+* the level of science communication is appropriate for non-specialist 
 
-* all the participants managed to find the location they wanted to search for in Northern Ireland
-* the new style DAQI scale was understood well
-* users all understood the dual forecast 
-* the messaging in the prototype is understood
-* people are making the connection between poor air quality and at risk individuals
 
 
 ### What needs work
 
-This prototype tested very well and there weren’t any major failings. However, we need to do some more ideation around:
-* how to engage users around the localised measurements
-* how we can use historical data to help engage and improve the air quality messaging
-* can we introduce other features, such as seasonal air quality information
+During this round of testing, we found that:
+* the graphs disrupt the flow of taking in the overall messaging of the page
+* people who engage with the graphs lose track of the overall page
+* participants completely miss that there are statutory pollutants we need to monitor
+* user desire to see stronger, positive recommendations for self-protection, action and behaviour change remains quite high 
 
 
 
-## What we focused on in sprint nine
+
+## What we focused on in sprint 9
 
 As a team in sprint nine, we agreed the main points to focus on were:  
 
