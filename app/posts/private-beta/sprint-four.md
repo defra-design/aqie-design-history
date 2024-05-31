@@ -1,5 +1,5 @@
 ---
-title: Sprint four
+title: Sprint 4
 layout: page
 date: 2024-02-14
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint three
+## Research goals from sprint 3
 
 * Does providing summaries of pollutant sources improve participant engagement with the pollutant pages compared to just displaying the pollutant names?
 * Can participants effectively follow content and messaging on smaller screens?
@@ -35,7 +35,7 @@ Our design worked effectively on mobile devices and responsiveness did not raise
 * users were still unsure on the health messaging and what levels of exercise would be safe
 
 
-## What we focused on in sprint four
+## What we focused on in sprint 4
 
 As a team, in Sprint four, we agreed the main points to focus on were:  
 
