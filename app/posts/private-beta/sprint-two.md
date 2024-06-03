@@ -1,5 +1,5 @@
 ---
-title: Sprint 2
+title: Sprint two
 layout: page
 date: 2023-12-14
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint 1
+## Research goals from sprint one
 
 * Is postcode look-up sufficient for looking up air quality?
 * Do participants understand the daily air qulaity index (DAQI) score/levels as relevant to them?​
@@ -34,7 +34,7 @@ Whilst the beginning of the participant's journey tested well, once they arrived
 * the monitoring stations and the process of data collection may not be of high interest, which can lead to key information being completely ignored. Since the names in the prototype were fictional, participants may not have perceived a connection to them.
 * the location of the pollutant information under related content was often overlooked
 
-## What we focussed on in sprint 2
+## What we focussed on in sprint two
 
 As a team, in sprint two, we agreed the main points to focus on were:  
 

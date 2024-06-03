@@ -1,5 +1,5 @@
 ---
-title: Sprint 5
+title: Sprint five
 layout: page
 date: 2024-03-08
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint 4
+## Research goals from sprint four
 
 The research was conducted with a mix of participants, including those with low digital skills.
 
@@ -41,7 +41,7 @@ While the design tested well, we found that the:
 * low digitally skilled users found prototype itself usable and proposition easy to understand, but missed links,expanders and tool tips
 
 
-## What we focused on in sprint 5
+## What we focused on in sprint five
 
 As a team, in sprint five, we agreed the main points to focus on were:  
 

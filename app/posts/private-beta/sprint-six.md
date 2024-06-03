@@ -1,5 +1,5 @@
 ---
-title: Sprint 6
+title: Sprint six
 layout: page
 date: 2024-04-02
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint 5
+## Research goals from sprint five
 
 The research was conducted with a mix of participants, including those with low digital skills.
 
@@ -42,7 +42,7 @@ While the design tested well, we found that the:
 
 
 
-## What we focused on in sprint 6
+## What we focused on in sprint six
 
 As a team, we agreed the main points to focus on were:  
 

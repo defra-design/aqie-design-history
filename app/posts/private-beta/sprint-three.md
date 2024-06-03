@@ -1,5 +1,5 @@
 ---
-title: Sprint 3
+title: Sprint three
 layout: page
 date: 2024-01-24
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint 2
+## Research goals from sprint two
 
 * Do participants understand the DAQI reading as relevant to them?
 * Do participants read and understand the health advice?
@@ -34,7 +34,7 @@ Whilst we had increased participant engagement from sprint one, it was agreed th
 * the details component with differing levels of health information being accessed
 * mobile optimisation
 
-## What we focussed on in sprint 3
+## What we focussed on in sprint three
 
 As a team, we agreed the main points to focus on were:  
 

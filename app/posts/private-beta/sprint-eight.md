@@ -1,26 +1,22 @@
 ---
-title: Sprint 8
+title: Sprint eight
 layout: page
-date: 2024-05-22 
+date: 2024-06-03
 author:
   name: Will Richards
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint 6
+## Research goals from sprint seven
 
-**We took a sprint break during sprint 7.**
+This research was conducted with a mix of participants living in the South West of England.
 
-This research was conducted with a mix of participants living in rural and urban areas of Northern Ireland.
+We focussed on testing: 
+* a 24 hour view of historical local air pollutant levels
+* using charts rather than a table to see if the visual approach worked better
+* removing the tooltips that explaining elements of the tables and putting the content ‘inline’ instead
+* displaying data for the closest monitoring area only 
 
-We focussed on testing our changes to the forecast, including:
-* how the Northern Ireland participants managed the search function
-* Today, Tomorrow and Outlook tabs
-* only displaying the health advice for the highest reading
-* Daily Air Quality Index (DAQI) without numbers  
-* the changed position of the pollutant summaries and click-through links
-
-We also tested how the tabulated monitoring stations were viewed and understood.
 
 
 ## Research findings
@@ -28,41 +24,77 @@ We also tested how the tabulated monitoring stations were viewed and understood.
 ### What worked well
 
 In this round of research, we found:
+* the daily air quality index (DAQI) forecast, 4 day forecast and the Met Office forecast are still understood
+* the top level of health advice is understood
+* the level of communication is appropriate for non-specialists 
 
-* all the participants managed to find the location they wanted to search for in Northern Ireland
-* the new style DAQI scale was understood well
-* participants all understood the dual forecast 
-* the messaging in the prototype is understood
-* participants are making the connection between poor air quality and at risk individuals
 
 
 ### What needs work
 
-This prototype tested very well and there weren’t any major failings. However, we need to do some more ideation around:
-* how to engage participants around the localised measurements
-* how we can use historical data to help engage and improve the air quality messaging
-* can we introduce other features, such as seasonal air quality information
+During this round of testing, we found that:
+* the graphs disrupt the flow of the overall messaging 
+* the story and flow in particular what pollutants we monitor and why appears to be lost
+* user desire to see stronger, positive recommendations for self-protection, action and behaviour change remains quite high 
 
 
 
-## What we focused on in sprint 8
 
-As a team we agreed the main points to focus on were:  
+## What we focused on in sprint eight
 
-* displaying charts with the past 24 hours of pollutant data from the nearest automatic urban and rural network (AURN) station
-* only showing the nearest monitoring area with links to others nearby
+As a team in sprint nine, we agreed the main points to focus on were:
 
-### Displaying a chart with the past 24 hours of pollutant data
+* improving the health messaging based on feedback from the UKHSA
+* prioritising statutory pollutants and messaging around air pollution to set the story
+* using Rural-Urban classifications and historic data to dispel air pollution myths in a user’s chosen area, for example, I live in the countryside, why do I need to worry?
+* displaying the last published annual means for each statutory pollutant for that given area
 
-We wanted to start displaying the data from the nearest AURN station over a 24 hour period. This could help give context to the pollutants and potentially help participants think about what may be causing them to rise or fall and therefore engage more with the concept of air quality. The design was adapted from the charts that are used to illustrate river levels in the [Check for flooding](https://check-for-flooding.service.gov.uk/station/3179) service on gov.uk.
 
-Underneath each chart is a link to 'View levels over a longer period'. Whilst the link was dormant, the intention is to allow users to explore pollutant data over longer periods and within this round of research to explore user needs around this.
 
-![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-eight/graphs.png "")
 
-### Only showing the nearest monitoring area
 
-As the charts for each station could potentially increase the bandwidth of each page and effect mobile optimisation, we decided only to display charts for the nearest station. Underneath the nearest station is a panel allowing users to explore other nearby stations.
+### Health advice
 
-![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-eight/other-areas-monitored-nearby.png "")
+After consulting with the UKHSA and our colleagues in AQIS, we decided to replace the health information for individual pollutants with a single, comprehensive section addressing ‘air pollution.’ This approach recognises that air comprises varying concentrations of numerous pollutants, and focusing on a single pollutant could detract from understanding the overall impact of the remaining pollutants.
+
+![Health advice](../../images/sprint-eight/health-advice.png "")
+
+   
+
+#### Recommended actions and health advice
+
+At the bottom of the 'health advice' section on UKAIR, there is an important paragraph about the risks for people with health conditions and the importance of consulting their doctor. After consulting with our subject matter experts, we decided to move this advice to the top of the section for greater visibility.
+
+![Recommended actions and health advice](../../images/sprint-eight/details.png "")
+
+
+### What makes up air pollution
+
+To provide context for the pollutants we monitor, we introduced a section explaining our reasons for selecting them. We believe this will help introduce and contextualise the gases and particles discussed in further detail.
+
+![Health advice](../../images/sprint-eight/what-makes-air-pollution.png "")
+
+
+### Air quality in this area
+
+A common myth about air pollution is that it is only a problem in cities. To engage rural users and dispel this misconception, we included a sentence addressing this myth. This leads into detailed information about historical data on the highest pollutants in their area.
+
+![Health advice](../../images/sprint-eight/air-quality-in-this-area.png "")
+
+
+
+### Average levels
+
+Using data from UKAIR, we extracted historical information combining measured and mathematically modelled data to provide details on pollutants within a 1 km² area across the UK over the past year.
+
+![Health advice](../../images/sprint-eight/average-levels.png "")
+
+
+## Location template in full
+
+Displayed within a large viewport such as desktop or tablet.
+
+![Page showing a location forecast](../../images/sprint-eight/location.png "")
+
+
 

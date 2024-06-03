@@ -1,5 +1,5 @@
 ---
-title: Sprint 1
+title: Sprint one
 layout: page
 date: 2023-11-30
 author:
