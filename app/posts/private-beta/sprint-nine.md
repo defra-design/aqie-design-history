@@ -34,7 +34,7 @@ In this round of research, we found:
 
 During this round of testing, we found that:
 * the graphs disrupt the flow of the overall messaging 
-* participants completely miss that there are statutory pollutants we need to monitor
+* the story and flow in particular what pollutants we monitor and why appears to be lost
 * user desire to see stronger, positive recommendations for self-protection, action and behaviour change remains quite high 
 
 
@@ -44,20 +44,55 @@ During this round of testing, we found that:
 
 As a team in sprint nine, we agreed the main points to focus on were:  
 
-* only showing the nearest monitoring area
-* displaying a chart with the past 24 hours of pollutant data
+* improving the health messaging based on feedback from the UKHSA
+* prioritising statutory pollutants and messaging around air pollution to set the story
+* using Rural-Urban classifications and historic data to dispel air pollution myths in a user's chosen area e.g. I live the countryside why do I need ot worry?
+* displaying the last pubished annual means for each statutory pollutant for that given area  
 
-### Only showing the nearest monitoring area
 
-Due to the distancing between many people and their 3 closest automatic urban and rural network (AURN) areas, we focused on their closest one. 
 
-![Today's forecast with scale](../../images/sprint-six/todays-forecast.png "")
+### Health advice
+
+Write stuff about why you changed the this 
+
+![Health advice](../../images/sprint-nine/health-advice.png "")
 
    
 
-### Displaying a chart with the past 24 hours of pollutant data
+#### Recommended actions and health advice
 
-We wanted to start displaying some of the historical data that we have access to in a way that could help users understand the  pollutants monitored in their area better. Seeing the patterns of their air quality could help users think what may be causing them to rise or fall and therefore increase their engagement. We chose to use a chart rather than a table as it is more visual. The chart design was adapted from the accessible charts that appear in the Flooding service. 
+Stuff about sticking this into a details component
 
-![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
+![Recommended actions and health advice](../../images/sprint-nine/details.png "")
+
+
+### What makes up air pollution
+
+Bit about promoting this and setting the story
+
+![Health advice](../../images/sprint-nine/what-makes-air-pollution.png "")
+
+
+### Air quality in this area
+
+Bit about rural urban classification and historical data to displel those pesky myths
+
+![Health advice](../../images/sprint-nine/air-quality-in-this-area.png "")
+
+
+
+### Average levels
+
+Bit about the average levels over a year
+
+![Health advice](../../images/sprint-nine/average-levels.png "")
+
+
+## Location template in full
+
+Displayed within a large viewport such as desktop or tablet.
+
+![Page showing a location forecast](../../images/sprint-nine/location.png "")
+
+
 

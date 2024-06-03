@@ -41,6 +41,20 @@
     "templateContent": "findings from third round research with personalisation prototype found that: finding information about local air quality top priority followed by any action councils are taking improve people need recognise their own situation trigger curiosity topic most approach set assumptions only affects certain groups single source problem areas asking users make plan hard when they understand yet want know more than just overall always level where does pollution come what long term health risk first explored precision theme over 2 rounds focused primarily mapping until this point mostly avoided using maps illustrate universally accessible have potential provide inaccurate misleading picture especially modelled data limited number monitoring stations even fewer rural however policy team exploring opportunities use precise potentially street forecasting wanted explore how would presented map appetite granular built simple that asked location before presenting them view displayed current index value additional options based used london service nitrogen dioxide pm2.5 side panel gave 5 day forecast primary pollutant area links hinting further exclusively sidebar avoid confusion observed described low showed continue see gov.uk authoritative trustworthy engaging encourage interaction exploration desire pan zoom green can interpreted being neutral colour indication could locations measured there less interest coming days changeable unreliable keener understanding right now perhaps hourly intervals leading technical terms like means ignored said seeing pollutants exceedance spark   concern second supportive role meant interactive getting made easier expand show also dig deeper into preferences around timescale important historical useful given likelihood longer timespan across span opportunity revisit explain grouping categories: gases particles lead simpler better understood thinking again narrative journeys through included page dug particular here measurement graphs relationship management improvement council undertaking turn link educational within finally added list industrial sites near sourced uk release transfer register prtr might interpret looked viewing measures layered measurements doing enable between undertaken reduce screenshots initial landing showing no2 revised elephant castle se1 oxides nox yearly average concentration",
     "url": "/aqie-design-history/posts/citizen-alpha/precision-prototype/"
   },  {
+    "title": "Air quality design history",
+"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
+    "hasFrontmatterDate": false,
+    "date": "11 September 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/"
+  },  {
+    "title": "Citizen Alpha",
+"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "11 September 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/citizen-alpha/"
+  },  {
     "title": "Sprint 1",
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
@@ -54,20 +68,6 @@
     "date": "14 December 2023",
     "templateContent": "research goals from sprint 1 postcode look sufficient looking air quality participants understand daily qulaity index daqi score levels relevant them ​ people read health advice they regard engage with measurement stations location readings give credibility come away appreciating that poor poses risk findings what worked well most commented prototype keeping government websites noted that: site credible easy use search did present any problems everyone entered without prompts content straight forward information engaging even showed signs overturning some myths creating interest behavioural change needs work whilst beginning journey tested once arrived forecast noted: scientific language especially around pollutant names measures presented barrier monitoring process data collection may high which can lead key being completely ignored since were fictional have perceived connection under related often overlooked focussed 2 team two agreed main points focus were: flow affected discouraged reading possibly due positioning terms could increase engagement by emphasisng measurements rather than would using accurate make more relatable screens within updated this page easier learn about their area reorganising hierarchy putting all one branching pollutants adapted headings show logical participant follow pollution today level seem interested after entering moderate next tell means highlight those who concerns 'how affect your delved deeper into how individual material previously right hand side hope heading section encourage select find out previous deterred further because made think monitored aimed element firstly introducing measurments each station secondly adding new columns: borrowed concept check flooding service thought paticpants context just displaying arbitary number working hypothesis only display sites are certain distance example 75 miles maximum 3 tooltips user table proven hard struggling way explain columns making design too busy again noticed used very similar ours had productive chat interaction designer walked through accessibility been mentioned during our alpha us comfortable trying iteration details pages generally first struggled banding removed improve ensure consistency sure followed set format: sources does short exposure term effects long bandings",
     "url": "/aqie-design-history/posts/private-beta/sprint-two/"
-  },  {
-    "title": "Air quality design history",
-"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
-    "hasFrontmatterDate": false,
-    "date": "14 December 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/"
-  },  {
-    "title": "Citizen Alpha",
-"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
-    "hasFrontmatterDate": false,
-    "date": "14 December 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/citizen-alpha/"
   },  {
     "title": "Sprint 3",
 "section": "Citizen Private Beta",    "layout": "page",
@@ -93,7 +93,7 @@
     "title": "Citizen Private Beta",
 "description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "12 March 2024",
+    "date": "8 March 2024",
     "templateContent": "",
     "url": "/aqie-design-history/private-beta/"
   },  {
@@ -115,6 +115,6 @@
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "22 May 2024",
-    "templateContent": "research goals from sprint 8 this conducted with mix participants living south west england focussed testing: 24 hour view historical local air pollutant levels using charts rather than table see visual approach worked better removing tooltips that explaining elements tables putting content instead displaying data closest monitoring area only findings what well round found: daily quality index daqi forecast 4 day met office are still understood top level health advice communication appropriate non specialists needs work during testing found that: graphs disrupt flow overall messaging completely miss there statutory pollutants need monitor user desire stronger positive recommendations self protection action behaviour change remains quite high focused 9 team nine agreed main points focus were: showing nearest chart past hours due distancing between many people their 3 automatic urban rural network aurn areas one wanted start some have access way could help users understand monitored seeing patterns think may causing them rise fall therefore increase engagement chose use more design adapted accessible appear flooding service",
+    "templateContent": "research goals from sprint 8 this conducted with mix participants living south west england focussed testing: 24 hour view historical local air pollutant levels using charts rather than table see visual approach worked better removing tooltips that explaining elements tables putting content instead displaying data closest monitoring area only findings what well round found: daily quality index daqi forecast 4 day met office are still understood top level health advice communication appropriate non specialists needs work during testing found that: graphs disrupt flow overall messaging story particular pollutants monitor why appears lost user desire stronger positive recommendations self protection action behaviour change remains quite high focused 9 team nine agreed main points focus were: improving based feedback ukhsa prioritising statutory around pollution set rural urban classifications historic dispel myths chosen e.g live countryside need ot worry last pubished annual means each given write stuff about changed recommended actions sticking into details component makes bit promoting setting classification displel those pesky average over year location template full displayed within large viewport such desktop tablet",
     "url": "/aqie-design-history/posts/private-beta/sprint-nine/"
   }]
