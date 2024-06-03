@@ -42,18 +42,20 @@ During this round of testing, we found that:
 
 ## What we focused on in sprint 9
 
-As a team in sprint nine, we agreed the main points to focus on were:  
+As a team in sprint nine, we agreed the main points to focus on were:
 
 * improving the health messaging based on feedback from the UKHSA
 * prioritising statutory pollutants and messaging around air pollution to set the story
-* using Rural-Urban classifications and historic data to dispel air pollution myths in a user's chosen area e.g. I live the countryside why do I need ot worry?
-* displaying the last pubished annual means for each statutory pollutant for that given area  
+* using Rural-Urban classifications and historic data to dispel air pollution myths in a user’s chosen area, for example, I live in the countryside, why do I need to worry?
+* displaying the last published annual means for each statutory pollutant for that given area
+
+
 
 
 
 ### Health advice
 
-Write stuff about why you changed the this 
+After consulting with the UKHSA and our colleagues in AQIS, we decided to replace the health information for individual pollutants with a single, comprehensive section addressing ‘air pollution.’ This approach recognises that air comprises varying concentrations of numerous pollutants, and focusing on a single pollutant could detract from understanding the overall impact of the remaining pollutants.
 
 ![Health advice](../../images/sprint-nine/health-advice.png "")
 
@@ -61,21 +63,21 @@ Write stuff about why you changed the this
 
 #### Recommended actions and health advice
 
-Stuff about sticking this into a details component
+At the bottom of the 'health advice' section on UKAIR, there is an important paragraph about the risks for people with health conditions and the importance of consulting their doctor. After consulting with our subject matter experts, we decided to move this advice to the top of the section for greater visibility.
 
 ![Recommended actions and health advice](../../images/sprint-nine/details.png "")
 
 
 ### What makes up air pollution
 
-Bit about promoting this and setting the story
+To provide context for the pollutants we monitor, we introduced a section explaining our reasons for selecting them. We believe this will help introduce and contextualise the gases and particles discussed in further detail.
 
 ![Health advice](../../images/sprint-nine/what-makes-air-pollution.png "")
 
 
 ### Air quality in this area
 
-Bit about rural urban classification and historical data to displel those pesky myths
+A common myth about air pollution is that it is only a problem in cities. To engage rural users and dispel this misconception, we included a sentence addressing this myth. This leads into detailed information about historical data on the highest pollutants in their area.
 
 ![Health advice](../../images/sprint-nine/air-quality-in-this-area.png "")
 
@@ -83,7 +85,7 @@ Bit about rural urban classification and historical data to displel those pesky 
 
 ### Average levels
 
-Bit about the average levels over a year
+Using data from UKAIR, we extracted historical information combining measured and mathematically modelled data to provide details on pollutants within a 1 km² area across the UK over the past year.
 
 ![Health advice](../../images/sprint-nine/average-levels.png "")
 
