@@ -42,7 +42,7 @@ During this round of testing, we found that:
 
 ## What we focused on in sprint eight
 
-As a team we agreed the main points to focus on were:
+As a team, we agreed the main points to focus on were:
 
 * improving the health messaging based on feedback from the UKHSA
 * prioritising statutory pollutants and messaging around air pollution to set the story
