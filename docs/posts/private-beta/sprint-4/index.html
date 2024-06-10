@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template no-js">
   <head>
     <meta charset="utf-8">
-    <title>Sitemap - Air quality design history - DEFRA</title>
+    <title>Sprint 4 - Air quality design history - DEFRA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="/aqie-design-history/assets/govuk.css">
   <link rel="stylesheet" href="/aqie-design-history/styles/application.css">
 
-  <meta property="og:url" content="/aqie-design-history/sitemap/">
-  <meta property="og:title" content="Sitemap">
+  <meta property="og:url" content="/aqie-design-history/posts/private-beta/sprint-4/">
+  <meta property="og:title" content="Sprint 4">
 
     
   </head>
@@ -49,48 +49,93 @@
 
 
       <div class="govuk-width-container ">
-  
+  <div class="govuk-breadcrumbs govuk-!-display-none-print">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
+    </li>
+  </ol>
+</div>
+
         <main class="govuk-main-wrapper " id="main-content" role="main">
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <header class="app-document-header">
+  <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Sitemap
+    Sprint&nbsp;4
   </h1>
 
 </header>
 
 
 
-    
+<div class="app-prose-scope">    <h2 id="research-goals-from-sprint-3" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-goals-from-sprint-3"><span>Research goals from sprint 3</span></a></h2>
+<ul class="govuk-list govuk-list--bullet">
+<li>Does providing summaries of pollutant sources improve participant engagement with the pollutant pages compared to just displaying the pollutant names?</li>
+<li>Can participants effectively follow content and messaging on smaller screens?</li>
+<li>Are the data tables legible on mobile devices?</li>
+<li>Do links, details components, and tooltips remain visible and accessible to participants on mobile screens?</li>
+</ul>
+<h2 id="research-findings" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-findings"><span>Research findings</span></a></h2>
+<h3 id="what-worked-well" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-worked-well"><span>What worked well</span></a></h3>
+<p class="govuk-body">This was the first user research session conducted to test the responsiveness of our design. We found:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>the design worked well across different devices</li>
+<li>users scrolled, unprompted, to the data tables and were engaged by the location and information provided by the monitoring stations</li>
+<li>tablet users exhibited notably higher interaction rates with the prototype compared to other device users</li>
+<li>the wording and colour coding of the daily air quality index (DAQI) bar were positive</li>
+</ul>
+<h3 id="what-needs-work" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-needs-work"><span>What needs work</span></a></h3>
+<p class="govuk-body">Our design worked effectively on mobile devices and responsiveness did not raise any significant concerns. However, there were areas where we identified potential improvements:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>mobile users were less likely to select the tooltips and details components</li>
+<li>the proximity of the monitoring stations and the accuracy for their location drew engagement</li>
+<li>the pollution summaries worked well and prompted conversation, but users still didn’t select the links to read more</li>
+<li>users were still unsure on the health messaging and what levels of exercise would be safe</li>
+</ul>
+<h2 id="what-we-focused-on-in-sprint-4" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#what-we-focused-on-in-sprint-4"><span>What we focused on in sprint 4</span></a></h2>
+<p class="govuk-body">As a team, in sprint 4, we agreed the main points to focus on were:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>our first iteration of implementing a 5 day forecast</li>
+<li>creating microcopy of the long term health effects for each pollutant to this encourage further user engagement</li>
+<li>presenting each pollutant in the card component to offer increased engagement</li>
+</ul>
+<h2 id="5-day-forecast" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#5-day-forecast"><span>5 day forecast</span></a></h2>
+<figure><img src="../../images/sprint-4/5dayforecast.png" alt="Part of the page showing the tabulated 5 day forecast"></figure>
+<p class="govuk-body">We decided to arrange the 5 day forecast into three distinct tabs:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>Today</li>
+<li>Tomorrow</li>
+<li>Outlook</li>
+</ul>
+<p class="govuk-body">This was influenced by:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>the way flooding had tackled this for the flood risk forecast</li>
+<li>the view on a mobile stacks the tabs on top of each other, which would negate the common situation where each day would be low and the messaging become repetative.</li>
+<li>the UK summary, which is provided by the Met Office is supplied in three parts ‘today, tomorrow and outlook’. This would enable us to relate the air pollution forecast with the UK pollution summary.</li>
+</ul>
+<h3 id="daqi-scale" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#daqi-scale"><span>DAQI scale</span></a></h3>
+<p class="govuk-body">When we began to mock up our initial designs as wireframes we noticed how the number in isolation became meaningless without the scale 1-10 that we had in previous iterations. For this sprint we decided to drop the DAQI value and only use Low, Moderate, High and Very high.</p>
+<h3 id="health-advice" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#health-advice"><span>Health advice</span></a></h3>
+<p class="govuk-body">For each forecast we applied some logic so, if it’s Low we wouldn’t display health advice. However, if it’s moderate or above we would display the appropriate advice.</p>
+<p class="govuk-body">We also customised the inset component used in the government design system to use the colour of the relevant forecast. Would this help relate the advice with the forecast?</p>
+<figure><img src="../../images/sprint-4/health-advice.png" alt="Part of the page showing the relevant health advice"></figure>
+<h2 id="air-pollutants-monitored-nearby" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#air-pollutants-monitored-nearby"><span>Air pollutants monitored nearby</span></a></h2>
+<p class="govuk-body">Whilst not part of original sprint goal we wanted to see if tabulating the monitoring stations would help with the length of the template within the larger viewports, for example, desktop and tablet. The nearest monitoring station is displayed by default, followed by the next and so on.</p>
+<p class="govuk-body">Importantly we moved this further up the template so that user could relate this element to the forecast. In the previous sprint a behaviour was noted where participants were scrolling up and down to compare the forecast with the pollutants monitored near by.</p>
+<figure><img src="../../images/sprint-4/polluntants-monitored.png" alt="Part of the page showing the tabulated monitoring stations"></figure>
+<h2 id="learn-how-air-pollutants-can-affect-your-health" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#learn-how-air-pollutants-can-affect-your-health"><span>Learn how air pollutants can affect your health</span></a></h2>
+<p class="govuk-body">We decided to try and increase engagement with the content that sits below these links. The first was to highlight the long term health effects in the microcopy, secondly a card component was used.</p>
+<figure><img src="../../images/sprint-4/pollutants.png" alt="Part of the page showing the pollutant links as card components"></figure>
+<h2 id="location-template-in-full" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#location-template-in-full"><span>Location template in full</span></a></h2>
+<p class="govuk-body">Displayed within a large viewport such as desktop or tablet.</p>
+<figure><img src="../../images/sprint-4/forecast.png" alt="Page showing a location forecast"></figure>
+<p class="govuk-body">Displayed within a smaller viewport such as mobile.<br>
+<img src="../../images/sprint-4/mobile.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" /></p>
 
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/citizen-alpha/">Citizen Alpha</a>
-        </h2>
-          <p class="govuk-body">Design history for the alpha exploring concepts around citizen-facing services.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/citizen-alpha/glossary/">Glossary</a></li>
-<li><a href="/posts/citizen-alpha/personas/">Our initial personas</a></li>
-<li><a href="/posts/citizen-alpha/initial-prototype/">The initial prototype</a></li>
-<li><a href="/posts/citizen-alpha/education-prototype/">The education prototype</a></li>
-<li><a href="/posts/citizen-alpha/personalisation-prototype/">The personalisation prototype</a></li>
-<li><a href="/posts/citizen-alpha/precision-prototype/">The precision prototype</a></li></ul>
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
-        </h2>
-          <p class="govuk-body">Design history for the private beta for a citizen-facing air quality information service.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/private-beta/sprint-1/">Sprint 1</a></li>
-<li><a href="/posts/private-beta/sprint-2/">Sprint 2</a></li>
-<li><a href="/posts/private-beta/sprint-3/">Sprint 3</a></li>
-<li><a href="/posts/private-beta/sprint-4/">Sprint 4</a></li>
-<li><a href="/posts/private-beta/sprint-5/">Sprint 5</a></li>
-<li><a href="/posts/private-beta/sprint-6/">Sprint 6</a></li>
-<li><a href="/posts/private-beta/sprint-8/">sprint 8</a></li>
-<li><a href="/posts/private-beta/sprint-9/">sprint 9</a></li></ul>
-      </div>
-  </div>
+
+      
 </div>
         </main>
       </div>

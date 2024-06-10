@@ -1,5 +1,5 @@
 ---
-title: Sprint six
+title: Sprint 6
 layout: page
 date: 2024-04-02
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint five
+## Research goals from sprint 5
 
 The research was conducted with a mix of participants, including those with low digital skills.
 
@@ -42,7 +42,7 @@ While the design tested well, we found that the:
 
 
 
-## What we focused on in sprint six
+## What we focused on in sprint 6
 
 As a team, we agreed the main points to focus on were:  
 
@@ -54,7 +54,7 @@ As a team, we agreed the main points to focus on were:
 
 In previous sprints, we have removed the DAQI scale. However, the users wanted more context for the forecast, specifically how far the scale went up. In sprint 5 we added some text to explain the DAQI scale and levels, but this text was being missed by the participants. So, in this sprint we decided to add back in a visual scale which would give the participant the current reading on the scale. 
 
-![Today's forecast with scale](../../images/sprint-six/todays-forecast.png "")
+![Today's forecast with scale](../../images/sprint-6/todays-forecast.png "")
 
    
 
@@ -64,7 +64,7 @@ During sprint 5, we found that participants were looking at the 3 tabs for the f
 
 We decided to split the forecast to ‘Today’ (which was shown on the DAQI scale) and the remaining days of the forecast underneath on a separate scale. 
 
-![Forecast for the next 4 days](../../images/sprint-six/4day-forecast.png "")
+![Forecast for the next 4 days](../../images/sprint-6/4day-forecast.png "")
 
 
 
@@ -72,12 +72,12 @@ We decided to split the forecast to ‘Today’ (which was shown on the DAQI sca
 
 The UK forecast, which is supplied by the Met office was kept in the format we receive which is ‘Today, Tomorrow and Outlook’.
 
-![Forecast for the next 4 days](../../images/sprint-six/uk-forecast.png "")
+![Forecast for the next 4 days](../../images/sprint-6/uk-forecast.png "")
 
 
 
 ### Location template in full
 
-![location template](../../images/sprint-six/location-template.png "location template")
+![location template](../../images/sprint-6/location-template.png "location template")
 
 

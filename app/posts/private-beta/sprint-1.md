@@ -1,5 +1,5 @@
 ---
-title: Sprint one
+title: Sprint 1
 layout: page
 date: 2023-11-30
 author:
@@ -17,14 +17,14 @@ As a user I need to:
 
 ## Screens within the prototype
 
-<img src="../../images/sprint-one/scope.svg" alt="Screens within the prototype" style="margin-bottom: 30px; width: 100%; height: auto;" />
+<img src="../../images/sprint-1/scope.svg" alt="Screens within the prototype" style="margin-bottom: 30px; width: 100%; height: auto;" />
 
 
 The private beta design is not intended to work as one transactional journey, any page within the service could be considered a first touch point.
 
 ## Landing page
 
-![Start page on GOV.UK for ‘Check local air quality’](../../images/sprint-one/start.png "")
+![Start page on GOV.UK for ‘Check local air quality’](../../images/sprint-1/start.png "")
 
 We have kept this page very simple and used the pattern documented within the [government design system](https://design-system.service.gov.uk/patterns/start-using-a-service/).
 
@@ -34,7 +34,7 @@ The name of the service is a working title for now whilst we gather evidence abo
 
 ## Location search
 
-![Page showing how a user searches for a location](../../images/sprint-one/search-for-location.png "")
+![Page showing how a user searches for a location](../../images/sprint-1/search-for-location.png "")
 
 We decided to follow a similar pattern used by the ‘Check for flooding’ service. We were able to utilise their research to help us design a page that allows the user to complete their action as easily as possible.
 
@@ -55,7 +55,7 @@ Filtering within the API is documented on the [OS Data Hub](https://osdatahub.os
 
 ## Disambiguation
 
-![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-one/disambiguation.png "")
+![Page showing multiples results returned when a user searches by place name (disambiguation)](../../images/sprint-1/disambiguation.png "")
 
 The OS Names APIs can return multiple matches for a given request, enabling us to implement disambiguation. The API provides `DISTRICT_BOROUGH` or `COUNTY_UNITARY` data within the gazetteer of each result. 
 
@@ -65,7 +65,7 @@ This approach enables users to differentiate between the similar titled areas. F
 
 ## Air quality location page
 
-![Page showing the current forecast](../../images/sprint-one/location.png "")
+![Page showing the current forecast](../../images/sprint-1/location.png "")
 
 To keep the design clean and simple, we have implemented progressive disclosures for certain elements of this page. Our hypothesis is that the content within the progressive disclosures will help add context for many of the engaged users but reduce cognitive overload for others.  
 
@@ -73,13 +73,13 @@ We have moved the information on pollutants, their health effects, and measureme
 
 ### Daily air quality index (DAQI)
 
-![Image showing the daily air quality index](../../images/sprint-one/daqi.png "")
+![Image showing the daily air quality index](../../images/sprint-1/daqi.png "")
 
 While a parallel piece of social research into the DAQI is being carried out, we have left the 10-point scale in the prototype. However, as well as accessibility issues, we believe that the 10-points may be superfluous and that just having a 4-point scale (low, moderate, high and very high) would be less confusing for the users. This is something we hope to get more evidence for from our user research sessions. 
 
 ### Health advice
 
-![Image showing health advice](../../images/sprint-one/health-advice.png "")
+![Image showing health advice](../../images/sprint-1/health-advice.png "")
 
 To give context to the DAQI scale, we have included health advice for the forecasted measurement. This text has been taken directly from the UK AIR website. In future iterations we may work on paring the text down to use plain English and improve readability. We have removed the advice for citizens with no health problems as we have a working assumption that we only need to advise people who may be in danger from the forecast air pollution levels. 
 
@@ -87,19 +87,19 @@ The details component contains all the health advice for the DAQI scale. Again, 
 
 ### Measurement stations
 
-![Image showing the measurement stations table](../../images/sprint-one/measurement-stations.png "")
+![Image showing the measurement stations table](../../images/sprint-1/measurement-stations.png "")
 
 We included the 3 nearest measuring stations to the citizen's search point. We did this as the closest may not be the most relevant station for the user to be aware of (for example, if the nearest station is based at an industrial site but the user is searching a residential address, the residential address may not be affected by the higher readings from the industrial site). Currently, for the prototype, these are fixed, hypothetical stations and not dynamic to any searched location. 
 
 ### Station page
 
-![Page showing the current pollutant measurements at a station](../../images/sprint-one/measuring-station.png "")
+![Page showing the current pollutant measurements at a station](../../images/sprint-1/measuring-station.png "")
 
 Each station is linked from the air quality location page. The station includes a description and the current measurement of each pollutant that is measured at that particular station.
 
 ## Pollutants
 
-![Page showing the details about a pollutant](../../images/sprint-one/pollutant-detail.png "")
+![Page showing the details about a pollutant](../../images/sprint-1/pollutant-detail.png "")
 
 The pollutant pages are designed so that they could be either a stand-alone page, navigated from a search engine, or as part of the user’s journey from an earlier point in the service. 
 

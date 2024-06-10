@@ -1,5 +1,5 @@
 ---
-title: Sprint eight
+title: sprint 9
 layout: page
 date: 2024-06-03
 author:
@@ -40,7 +40,7 @@ During this round of testing, we found that:
 
 
 
-## What we focused on in sprint eight
+## What we focused on in sprint 9
 
 As a team, we agreed the main points to focus on were:
 
@@ -57,7 +57,7 @@ As a team, we agreed the main points to focus on were:
 
 After consulting with the UKHSA and our colleagues in AQIS, we decided to replace the health information for individual pollutants with a single, comprehensive section addressing ‘air pollution.’ This approach recognises that air comprises varying concentrations of numerous pollutants, and focusing on a single pollutant could detract from understanding the overall impact of the remaining pollutants.
 
-![Health advice](../../images/sprint-eight/health-advice.png "")
+![Health advice](../../images/sprint-9/health-advice.png "")
 
    
 
@@ -65,21 +65,21 @@ After consulting with the UKHSA and our colleagues in AQIS, we decided to replac
 
 At the bottom of the 'health advice' section on UKAIR, there is an important paragraph about the risks for people with health conditions and the importance of consulting their doctor. After consulting with our subject matter experts, we decided to move this advice to the top of the section for greater visibility.
 
-![Recommended actions and health advice](../../images/sprint-eight/details.png "")
+![Recommended actions and health advice](../../images/sprint-9/details.png "")
 
 
 ### What makes up air pollution
 
 To provide context for the pollutants we monitor, we introduced a section explaining our reasons for selecting them. We believe this will help introduce and contextualise the gases and particles discussed in further detail.
 
-![Health advice](../../images/sprint-eight/what-makes-air-pollution.png "")
+![Health advice](../../images/sprint-9/what-makes-air-pollution.png "")
 
 
 ### Air quality in this area
 
 A common myth about air pollution is that it is only a problem in cities. To engage rural users and dispel this misconception, we included a sentence addressing this myth. This leads into detailed information about historical data on the highest pollutants in their area.
 
-![Health advice](../../images/sprint-eight/air-quality-in-this-area.png "")
+![Health advice](../../images/sprint-9/air-quality-in-this-area.png "")
 
 
 
@@ -87,14 +87,14 @@ A common myth about air pollution is that it is only a problem in cities. To eng
 
 Using data from UKAIR, we extracted historical information combining measured and mathematically modelled data to provide details on pollutants within a 1 km² area across the UK over the past year.
 
-![Health advice](../../images/sprint-eight/average-levels.png "")
+![Health advice](../../images/sprint-9/average-levels.png "")
 
 
 ## Location template in full
 
 Displayed within a large viewport such as desktop or tablet.
 
-![Page showing a location forecast](../../images/sprint-eight/location.png "")
+![Page showing a location forecast](../../images/sprint-9/location.png "")
 
 
 

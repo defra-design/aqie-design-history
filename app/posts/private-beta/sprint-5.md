@@ -1,5 +1,5 @@
 ---
-title: Sprint five
+title: Sprint 5
 layout: page
 date: 2024-03-08
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint four
+## Research goals from sprint 4
 
 The research was conducted with a mix of participants, including those with low digital skills.
 
@@ -41,9 +41,9 @@ While the design tested well, we found that the:
 * low digitally skilled users found prototype itself usable and proposition easy to understand, but missed links,expanders and tool tips
 
 
-## What we focused on in sprint five
+## What we focused on in sprint 5
 
-As a team, in sprint five, we agreed the main points to focus on were:  
+As a team, in sprint 5, we agreed the main points to focus on were:  
 
 * allowing users to search for postcodes in Northern Ireland
 * refactoring of the prototype to allow sprints to be versioned and accessible to the team
@@ -54,9 +54,9 @@ As a team, in sprint five, we agreed the main points to focus on were:
 
 The [OS Names API](https://www.ordnancesurvey.co.uk/products/os-names-api) only supports places and locations within England, Wales and Scotland. A requirement of the service is also to support locations within Northern Ireland. In the long term we would like a gazetteer that supports all locations and postcodes across the UK. However, to meet the requirement in the private beta we have opted to allow the user to query locations and postcodes in England, Wales and Scotland using [OS Names API](https://www.ordnancesurvey.co.uk/products/) and postcodes in Northern Ireland using [postcodes.io](https://postcodes.io/).
 
-![Searching for a postcode in Northern Ireland](../../images/sprint-five/ni-postcode-search.png "Searching for postcodes in Northern Ireland ")
+![Searching for a postcode in Northern Ireland](../../images/sprint-5/ni-postcode-search.png "Searching for postcodes in Northern Ireland ")
 
-![Searching for a location in England, Scotland and Wales](../../images/sprint-five/where-do-you-want-to-check.png "Searching for a location in England, Scotland and Wales")
+![Searching for a location in England, Scotland and Wales](../../images/sprint-5/where-do-you-want-to-check.png "Searching for a location in England, Scotland and Wales")
    
 
 ### Health advice
@@ -71,14 +71,14 @@ We hypothesised that this would:
 * bring forward the most important advice to the main page
 
 
-![5 day forecast and moderate health advice](../../images/sprint-five/moderate-forecast.png "5 day forecast and moderate health advice")
+![5 day forecast and moderate health advice](../../images/sprint-5/moderate-forecast.png "5 day forecast and moderate health advice")
 
-![5 day forecast and low health advice](../../images/sprint-five/low-forecast.png "5 day forecast and moderate health advice")
+![5 day forecast and low health advice](../../images/sprint-5/low-forecast.png "5 day forecast and moderate health advice")
 
 ### How air pollution may affect health
 
 Long term health effects of air pollution is information that many of our users are unaware of. The health advice that we gave alongside the DAQI was only for short term exposure. To help improve engagement and education, we front loaded the page with a long term health effects summary. 
 
-![How air pollution may affect health](../../images/sprint-five/how-air-pollution.png "How air pollution may affect health")
+![How air pollution may affect health](../../images/sprint-5/how-air-pollution.png "How air pollution may affect health")
 
 

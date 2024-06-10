@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template no-js">
   <head>
     <meta charset="utf-8">
-    <title>Sitemap - Air quality design history - DEFRA</title>
+    <title>sprint 8 - Air quality design history - DEFRA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="/aqie-design-history/assets/govuk.css">
   <link rel="stylesheet" href="/aqie-design-history/styles/application.css">
 
-  <meta property="og:url" content="/aqie-design-history/sitemap/">
-  <meta property="og:title" content="Sitemap">
+  <meta property="og:url" content="/aqie-design-history/posts/private-beta/sprint-8/">
+  <meta property="og:title" content="sprint 8">
 
     
   </head>
@@ -49,48 +49,71 @@
 
 
       <div class="govuk-width-container ">
-  
+  <div class="govuk-breadcrumbs govuk-!-display-none-print">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
+    </li>
+  </ol>
+</div>
+
         <main class="govuk-main-wrapper " id="main-content" role="main">
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <header class="app-document-header">
+  <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Sitemap
+    sprint&nbsp;8
   </h1>
 
 </header>
 
 
 
-    
+<div class="app-prose-scope">    <h2 id="research-goals-from-sprint-6" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-goals-from-sprint-6"><span>Research goals from sprint 6</span></a></h2>
+<p class="govuk-body">This research was conducted with a mix of participants living in rural and urban areas of Northern Ireland.</p>
+<p class="govuk-body">We focussed on testing our changes to the forecast, including:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>how the Northern Ireland participants managed the search function</li>
+<li>Today, Tomorrow and Outlook tabs</li>
+<li>only displaying the health advice for the highest reading</li>
+<li>Daily Air Quality Index (DAQI) without numbers</li>
+<li>the changed position of the pollutant summaries and click-through links</li>
+</ul>
+<p class="govuk-body">We also tested how the tabulated monitoring stations were viewed and understood.</p>
+<h2 id="research-findings" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-findings"><span>Research findings</span></a></h2>
+<h3 id="what-worked-well" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-worked-well"><span>What worked well</span></a></h3>
+<p class="govuk-body">In this round of research, we found:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>all the participants managed to find the location they wanted to search for in Northern Ireland</li>
+<li>the new style DAQI scale was understood well</li>
+<li>participants all understood the dual forecast</li>
+<li>the messaging in the prototype is understood</li>
+<li>participants are making the connection between poor air quality and at risk individuals</li>
+</ul>
+<h3 id="what-needs-work" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-needs-work"><span>What needs work</span></a></h3>
+<p class="govuk-body">This prototype tested very well and there weren’t any major failings. However, we need to do some more ideation around:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>how to engage participants around the localised measurements</li>
+<li>how we can use historical data to help engage and improve the air quality messaging</li>
+<li>can we introduce other features, such as seasonal air quality information</li>
+</ul>
+<h2 id="what-we-focused-on-in-sprint-seven" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#what-we-focused-on-in-sprint-seven"><span>What we focused on in sprint seven</span></a></h2>
+<p class="govuk-body">As a team we agreed the main points to focus on were:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>displaying charts with the past 24 hours of pollutant data from the nearest automatic urban and rural network (AURN) station</li>
+<li>only showing the nearest monitoring area with links to others nearby</li>
+</ul>
+<h3 id="displaying-a-chart-with-the-past-24-hours-of-pollutant-data" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#displaying-a-chart-with-the-past-24-hours-of-pollutant-data"><span>Displaying a chart with the past 24 hours of pollutant data</span></a></h3>
+<p class="govuk-body">We wanted to start displaying the data from the nearest AURN station over a 24 hour period. This could help give context to the pollutants and potentially help participants think about what may be causing them to rise or fall and therefore engage more with the concept of air quality. The design was adapted from the charts that are used to illustrate river levels in the <a href="https://check-for-flooding.service.gov.uk/station/3179" class="govuk-link">Check for flooding</a> service on gov.uk.</p>
+<p class="govuk-body">Underneath each chart is a link to ‘View levels over a longer period’. Whilst the link was dormant, the intention is to allow users to explore pollutant data over longer periods and within this round of research to explore user needs around this.</p>
+<figure><img src="../../images/sprint-8/graphs.png" alt="Chart illustrating pollutant levels over a 24 hour period"></figure>
+<h3 id="only-showing-the-nearest-monitoring-area" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#only-showing-the-nearest-monitoring-area"><span>Only showing the nearest monitoring area</span></a></h3>
+<p class="govuk-body">As the charts for each station could potentially increase the bandwidth of each page and effect mobile optimisation, we decided only to display charts for the nearest station. Underneath the nearest station is a panel allowing users to explore other nearby stations.</p>
+<figure><img src="../../images/sprint-8/other-areas-monitored-nearby.png" alt="Chart illustrating pollutant levels over a 24 hour period"></figure>
 
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/citizen-alpha/">Citizen Alpha</a>
-        </h2>
-          <p class="govuk-body">Design history for the alpha exploring concepts around citizen-facing services.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/citizen-alpha/glossary/">Glossary</a></li>
-<li><a href="/posts/citizen-alpha/personas/">Our initial personas</a></li>
-<li><a href="/posts/citizen-alpha/initial-prototype/">The initial prototype</a></li>
-<li><a href="/posts/citizen-alpha/education-prototype/">The education prototype</a></li>
-<li><a href="/posts/citizen-alpha/personalisation-prototype/">The personalisation prototype</a></li>
-<li><a href="/posts/citizen-alpha/precision-prototype/">The precision prototype</a></li></ul>
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
-        </h2>
-          <p class="govuk-body">Design history for the private beta for a citizen-facing air quality information service.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/private-beta/sprint-1/">Sprint 1</a></li>
-<li><a href="/posts/private-beta/sprint-2/">Sprint 2</a></li>
-<li><a href="/posts/private-beta/sprint-3/">Sprint 3</a></li>
-<li><a href="/posts/private-beta/sprint-4/">Sprint 4</a></li>
-<li><a href="/posts/private-beta/sprint-5/">Sprint 5</a></li>
-<li><a href="/posts/private-beta/sprint-6/">Sprint 6</a></li>
-<li><a href="/posts/private-beta/sprint-8/">sprint 8</a></li>
-<li><a href="/posts/private-beta/sprint-9/">sprint 9</a></li></ul>
-      </div>
-  </div>
+
+      
 </div>
         </main>
       </div>

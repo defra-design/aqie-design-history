@@ -1,5 +1,5 @@
 ---
-title: Sprint three
+title: Sprint 3
 layout: page
 date: 2024-01-24
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint two
+## Research goals from sprint 2
 
 * Do participants understand the DAQI reading as relevant to them?
 * Do participants read and understand the health advice?
@@ -27,14 +27,14 @@ Overall, our team observed improved participant engagement compared to the previ
 
 ### What needs work
 
-Whilst we had increased participant engagement from sprint one, it was agreed that we needed to improve:
+Whilst we had increased participant engagement from sprint 1, it was agreed that we needed to improve:
 
 * participants clicking through to deeper pollutant content without prompts
 * participants not being put off by the scientific names of the pollutants
 * the details component with differing levels of health information being accessed
 * mobile optimisation
 
-## What we focussed on in sprint three
+## What we focussed on in sprint 3
 
 As a team, we agreed the main points to focus on were:  
 
@@ -48,7 +48,7 @@ As a team, we agreed the main points to focus on were:
 
 ## Content hierarchy and mobile optimisation
 
-<img src="../../images/sprint-three/mobile.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
+<img src="../../images/sprint-3/mobile.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
 ### Health advice
 
@@ -66,6 +66,6 @@ We refined the display of data within the table, accommodating the smaller width
 
 At the mobile breakpoint, we made the table responsive, hiding the pollutant header and applying a 100% width to the pollutant title for example 'Ozone'. This forced the remaining columns 'Latest', 'Trend' and 'Level'to flow underneath.
 
-<img src="../../images/sprint-three/tablet-mobile-responsive.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
+<img src="../../images/sprint-3/tablet-mobile-responsive.png" alt="Mobile viewport" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
 

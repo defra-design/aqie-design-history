@@ -1,5 +1,5 @@
 ---
-title: Sprint seven
+title: sprint 8
 layout: page
 date: 2024-05-09
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint six
+## Research goals from sprint 6
 
 
 
@@ -58,11 +58,11 @@ We wanted to start displaying the data from the nearest AURN station over a 24 h
 
 Underneath each chart is a link to 'View levels over a longer period'. Whilst the link was dormant, the intention is to allow users to explore pollutant data over longer periods and within this round of research to explore user needs around this.
 
-![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-seven/graphs.png "")
+![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-8/graphs.png "")
 
 ### Only showing the nearest monitoring area
 
 As the charts for each station could potentially increase the bandwidth of each page and effect mobile optimisation, we decided only to display charts for the nearest station. Underneath the nearest station is a panel allowing users to explore other nearby stations.
 
-![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-seven/other-areas-monitored-nearby.png "")
+![Chart illustrating pollutant levels over a 24 hour period](../../images/sprint-8/other-areas-monitored-nearby.png "")
 

@@ -1,5 +1,5 @@
 ---
-title: Sprint two
+title: Sprint 2
 layout: page
 date: 2023-12-14
 author:
@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint one
+## Research goals from sprint 1
 
 * Is postcode look-up sufficient for looking up air quality?
 * Do participants understand the daily air qulaity index (DAQI) score/levels as relevant to them?​
@@ -34,9 +34,9 @@ Whilst the beginning of the participant's journey tested well, once they arrived
 * the monitoring stations and the process of data collection may not be of high interest, which can lead to key information being completely ignored. Since the names in the prototype were fictional, participants may not have perceived a connection to them.
 * the location of the pollutant information under related content was often overlooked
 
-## What we focussed on in sprint two
+## What we focussed on in sprint 2
 
-As a team, in sprint two, we agreed the main points to focus on were:  
+As a team, in sprint 2, we agreed the main points to focus on were:  
 
 * the flow of the content was affected, as participants were discouraged from reading the 'related content,' possibly due to the positioning and the use of scientific terms.
 * could we increase engagement by emphasisng pollutant measurements rather than monitoring site location? 
@@ -45,12 +45,12 @@ As a team, in sprint two, we agreed the main points to focus on were:
 
 ## Screens within the prototype
 
-<img src="../../images/sprint-two/scope.svg" alt="The scope of the prototype" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
+<img src="../../images/sprint-2/scope.svg" alt="The scope of the prototype" style="margin-top: 30px; margin-bottom: 30px; width: 100%; height: auto;" />
 
 
 ## Air quality forecast location
 
-![Air quality forecast location](../../images/sprint-two/location.png "")
+![Air quality forecast location](../../images/sprint-2/location.png "")
 
 We updated this page to make it easier for participants to learn about the air quality in their area by reorganising the hierarchy and putting it all on one page rather than branching the pollutants off under ‘related content’. 
 
@@ -72,7 +72,7 @@ Next, we delved deeper into how the individual pollutants can affect the partici
 
 In previous research, participants were often deterred from reading further because scientific terms made them think they wouldn’t understand it.
 
-![How air pollutants can affect your health](../../images/sprint-two/pollutants-location.png "")
+![How air pollutants can affect your health](../../images/sprint-2/pollutants-location.png "")
 
 ### ‘Air pollutants monitored nearby’
 
@@ -80,23 +80,23 @@ We aimed to make this element more engaging, firstly by introducing the pollutan
 
 We borrowed this concept from the Check for flooding service. We thought that this information would give the paticpants more context to the measurements rather than just displaying an arbitary number.
 
-![Air pollutants monitored nearby](../../images/sprint-two/monitored-near-by.png "")
+![Air pollutants monitored nearby](../../images/sprint-2/monitored-near-by.png "")
 
 We have a working hypothesis that we would only display monitoring sites that are within a certain distance, for example, 75 miles and up to a maximum of 3.
 
 ## Tooltips
 
-![Tooltips](../../images/sprint-two/tooltips.png "")
+![Tooltips](../../images/sprint-2/tooltips.png "")
 
 From previous user research, the information in the data table has proven to be hard to understand for most participants. We were struggling to think of a way to explain some of the columns without making the design too busy. 
 
 Again, looking at the 'Check for flooding' service, we noticed they used tooltips in a very similar data table to ours. We had a productive chat with the interaction and content designer from the service who walked through their user research and accessibility findings. 
 
-As the use of tooltips had been mentioned by participants during our alpha user research. This made us comfortable in trying them in the iteration for sprint two. 
+As the use of tooltips had been mentioned by participants during our alpha user research. This made us comfortable in trying them in the iteration for sprint 2. 
 
 ## Pollutant details page
 
-![Pollutant details page](../../images/sprint-two/pollutant-details.png "")
+![Pollutant details page](../../images/sprint-2/pollutant-details.png "")
 
 The pollutant pages generally tested well during the first sprint. Participants struggled with the content of the pollutant banding table, so we removed this from each page. 
 To improve the flow and ensure consistency, we made sure they followed a set format:
@@ -106,8 +106,8 @@ To improve the flow and ensure consistency, we made sure they followed a set for
 * what are the short exposure term health effects?
 * what are the long term exposure health effects?
 
-### Pollutant bandings used in sprint one
+### Pollutant bandings used in sprint 1
 
-![Pollutant bandings](../../images/sprint-two/pollutant-bandings.png "")
+![Pollutant bandings](../../images/sprint-2/pollutant-bandings.png "")
 
 
