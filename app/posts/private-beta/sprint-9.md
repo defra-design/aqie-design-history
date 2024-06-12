@@ -7,7 +7,7 @@ author:
   url: https://github.com/defra-design
 ---
 
-## Research goals from sprint seven
+## Research goals from sprint 8
 
 This research was conducted with a mix of participants living in the South West of England.
 
