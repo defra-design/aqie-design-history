@@ -25,14 +25,23 @@ We focussed on testing:
 ### What worked well
 
 In this round of research, we found:
-* write somink here
+* the DAQI scale and forecasts and health messaging continued to be understood
+* participants found the information about ‘Air quality in this area’ interesting and some clicked on the further information about ozone
+* more interest in the pollutant pages
+* regarded as easier to understand than previous iterations
+
 
 
 
 ### What needs work
 
 During this round of testing, we found that:
-* write somink here
+* participants did not follow the service in the order we expected which meant context within some of the sections was lost 
+* participants still required prompting to expand the section on the health effects of air pollution 
+* participants skipped over the statutory pollution information and went straight to the ‘Average levels’ numbers which, without the context of the previous sections, were difficult to interpret
+* participants did not understand the relevance of the monitoring areas on display and came to incorrect conclusions
+there was repetitive text in about health information in the pollutant pages
+
 
 
 

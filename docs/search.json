@@ -41,20 +41,6 @@
     "templateContent": "findings from third round research with personalisation prototype found that: finding information about local air quality top priority followed by any action councils are taking improve people need recognise their own situation trigger curiosity topic most approach set assumptions only affects certain groups single source problem areas asking users make plan hard when they understand yet want know more than just overall always level where does pollution come what long term health risk first explored precision theme over 2 rounds focused primarily mapping until this point mostly avoided using maps illustrate universally accessible have potential provide inaccurate misleading picture especially modelled data limited number monitoring stations even fewer rural however policy team exploring opportunities use precise potentially street forecasting wanted explore how would presented map appetite granular built simple that asked location before presenting them view displayed current index value additional options based used london service nitrogen dioxide pm2.5 side panel gave 5 day forecast primary pollutant area links hinting further exclusively sidebar avoid confusion observed described low showed continue see gov.uk authoritative trustworthy engaging encourage interaction exploration desire pan zoom green can interpreted being neutral colour indication could locations measured there less interest coming days changeable unreliable keener understanding right now perhaps hourly intervals leading technical terms like means ignored said seeing pollutants exceedance spark   concern second supportive role meant interactive getting made easier expand show also dig deeper into preferences around timescale important historical useful given likelihood longer timespan across span opportunity revisit explain grouping categories: gases particles lead simpler better understood thinking again narrative journeys through included page dug particular here measurement graphs relationship management improvement council undertaking turn link educational within finally added list industrial sites near sourced uk release transfer register prtr might interpret looked viewing measures layered measurements doing enable between undertaken reduce screenshots initial landing showing no2 revised elephant castle se1 oxides nox yearly average concentration",
     "url": "/aqie-design-history/posts/citizen-alpha/precision-prototype/"
   },  {
-    "title": "Air quality design history",
-"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
-    "hasFrontmatterDate": false,
-    "date": "11 September 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/"
-  },  {
-    "title": "Citizen Alpha",
-"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
-    "hasFrontmatterDate": false,
-    "date": "11 September 2023",
-    "templateContent": "",
-    "url": "/aqie-design-history/citizen-alpha/"
-  },  {
     "title": "Sprint 1",
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
@@ -68,6 +54,20 @@
     "date": "14 December 2023",
     "templateContent": "research goals from sprint 1 postcode look sufficient looking air quality participants understand daily qulaity index daqi score levels relevant them ​ people read health advice they regard engage with measurement stations location readings give credibility come away appreciating that poor poses risk findings what worked well most commented prototype keeping government websites noted that: site credible easy use search did present any problems everyone entered without prompts content straight forward information engaging even showed signs overturning some myths creating interest behavioural change needs work whilst beginning journey tested once arrived forecast noted: scientific language especially around pollutant names measures presented barrier monitoring process data collection may high which can lead key being completely ignored since were fictional have perceived connection under related often overlooked focussed 2 team agreed main points focus were: flow affected discouraged reading possibly due positioning terms could increase engagement by emphasisng measurements rather than would using accurate make more relatable screens within updated this page easier learn about their area reorganising hierarchy putting all one branching pollutants adapted headings show logical participant follow pollution today level seem interested after entering moderate next tell means highlight those who concerns 'how affect your delved deeper into how individual material previously right hand side hope heading section encourage select find out previous deterred further because made think monitored aimed element firstly introducing measurments each station secondly adding new columns: borrowed concept check flooding service thought paticpants context just displaying arbitary number working hypothesis only display sites are certain distance example 75 miles maximum 3 tooltips user table proven hard struggling way explain columns making design too busy again noticed used very similar ours had productive chat interaction designer walked through accessibility been mentioned during our alpha us comfortable trying iteration details pages generally first struggled banding removed improve ensure consistency sure followed set format: sources does short exposure term effects long bandings",
     "url": "/aqie-design-history/posts/private-beta/sprint-2/"
+  },  {
+    "title": "Air quality design history",
+"description": "Design history for the Air Quality & Industrial Emissions service.",    "layout": "home",
+    "hasFrontmatterDate": false,
+    "date": "14 December 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/"
+  },  {
+    "title": "Citizen Alpha",
+"description": "Design history for the alpha exploring concepts around citizen-facing services.","section": "Home",    "layout": "collection",
+    "hasFrontmatterDate": false,
+    "date": "14 December 2023",
+    "templateContent": "",
+    "url": "/aqie-design-history/citizen-alpha/"
   },  {
     "title": "Sprint 3",
 "section": "Citizen Private Beta",    "layout": "page",
@@ -93,7 +93,7 @@
     "title": "Citizen Private Beta",
 "description": "Design history for the private beta for a citizen-facing air quality information service.","section": "Home",    "layout": "collection",
     "hasFrontmatterDate": false,
-    "date": "8 March 2024",
+    "date": "12 March 2024",
     "templateContent": "",
     "url": "/aqie-design-history/private-beta/"
   },  {
@@ -122,6 +122,6 @@
 "section": "Citizen Private Beta",    "layout": "page",
     "hasFrontmatterDate": true,
     "date": "11 July 2024",
-    "templateContent": "research goals from sprint 9 this conducted with mix participants living south east england focussed testing: health messaging based feedback ukhsa prioritising statutory pollutants around air pollution set story using rural urban classifications historic data dispel myths chosen area displaying last published annual means each pollutant that given findings what worked well round found: write somink here needs work during testing found that: focused 10 team agreed main points focus were: how does service sit within wider information architecture www.gov.uk need upfront about adding unnecessary noise can make historical easier scan comprehend reduce complexity monitored near by achictecture reviewed initial draft outlining could integrate into current gov.uk following model similar services like check flooding propose placing under new category called environment countryside section would contain all static content related quality such effects start page local also located while itself hosted its own subdomain additionally recommend .gov.uk search results will ensure they appear top when users terms quality. include links through have added breadcrumb navigation consistent structure included panel relevant location template uk forecast condensed met office single paragraph instead dividing separate sections today tomorrow outlook. removed tended overlook were sometimes put labels pm 2.5 nitrogen dioxide decided merge average levels… previous year due user particuarly amount text now only highlight dominant sources potential impacts along link more simplified display levels tabular form showing yearly threshold change aims improve comprehension skimming pollutantion individual measurements are daqi level low medium high very made because difficult understand however intend provide measurement where detailed accessed full displayed large viewport desktop tablet",
+    "templateContent": "research goals from sprint 9 this conducted with mix participants living south east england focussed testing: health messaging based feedback ukhsa prioritising statutory pollutants around air pollution set story using rural urban classifications historic data dispel myths chosen area displaying last published annual means each pollutant that given findings what worked well round found: daqi scale forecasts continued understood found information about quality interesting some clicked further ozone more interest pages regarded easier understand than previous iterations needs work during testing that: did follow service order expected which meant context within sections lost still required prompting expand section effects skipped over went straight average numbers without were difficult interpret relevance monitoring areas display came incorrect conclusions there repetitive text focused 10 team agreed main points focus were: how does sit wider architecture www.gov.uk need upfront adding unnecessary noise can make historical scan comprehend reduce complexity monitored near by achictecture reviewed initial draft outlining could integrate into current gov.uk following model similar services like check flooding propose placing under new category called environment countryside would contain all static content related such start page local also located while itself hosted its own subdomain additionally recommend .gov.uk search results will ensure they appear top when users terms quality. include links through have added breadcrumb navigation consistent structure included panel relevant location template uk forecast condensed met office single paragraph instead dividing separate today tomorrow outlook. removed tended overlook sometimes put labels pm 2.5 nitrogen dioxide decided merge levels… year due user particuarly amount now only highlight dominant sources potential impacts along link simplified levels tabular form showing yearly threshold change aims improve comprehension skimming pollutantion individual measurements are level low medium high very made because however intend provide measurement where detailed accessed full displayed large viewport desktop tablet",
     "url": "/aqie-design-history/posts/private-beta/sprint-10/"
   }]
