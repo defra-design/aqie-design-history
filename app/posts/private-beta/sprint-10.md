@@ -39,8 +39,8 @@ During this round of testing, we found that:
 * participants did not follow the service in the order we expected which meant context within some of the sections was lost 
 * participants still required prompting to expand the section on the health effects of air pollution 
 * participants skipped over the statutory pollution information and went straight to the ‘Average levels’ numbers which, without the context of the previous sections, were difficult to interpret
-* participants did not understand the relevance of the monitoring areas on display and came to incorrect conclusions
-there was repetitive text in about health information in the pollutant pages
+* participants did not understand the relevance of the displayed monitoring areas and often reached incorrect conclusions
+* there was repetitive text in about health information in the pollutant pages
 
 
 
@@ -52,12 +52,9 @@ As a team, we agreed the main points to focus on were:
 
 * how does the service sit within the wider information architecture of www.gov.uk?
 * do we need to be so upfront about the statutory pollutants and is this adding unnecessary noise? 
-* can we make the historical data easier to scan and comprehend?
+* can we make the historical data easier to scan and comprehend, particularly by displaying annual means for each statutory pollutant in that area in a tabular format?
 * can we reduce the complexity around the pollutants monitored near by?
-* displaying the last published annual means for each statutory pollutant for that given area
-
-
-
+* Can we reduce duplication by having a single pollutants page?
 
 
 ## Wider information achictecture
