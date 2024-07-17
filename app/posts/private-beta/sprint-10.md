@@ -54,7 +54,7 @@ As a team, we agreed the main points to focus on were:
 * do we need to be so upfront about the statutory pollutants and is this adding unnecessary noise? 
 * can we make the historical data easier to scan and comprehend, particularly by displaying annual means for each statutory pollutant in that area in a tabular format?
 * can we reduce the complexity around the pollutants monitored near by?
-* Can we reduce duplication by having a single pollutants page?
+* can we reduce duplication by having a single pollutants page?
 
 
 ## Wider information achictecture
