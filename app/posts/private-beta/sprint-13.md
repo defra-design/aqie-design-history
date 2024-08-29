@@ -101,7 +101,7 @@ When a user views an active alert, a notification banner is displayed indicating
 
 The template displays the relevant metadata, including:
 
-* The monitoring area name
+* the monitoring area name
 * a link to a Google Map with a pin indicating the location of the area
 * the current timestamp
 
