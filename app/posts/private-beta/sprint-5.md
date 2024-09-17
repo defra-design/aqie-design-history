@@ -47,8 +47,8 @@ As a team, in sprint 5, we agreed the main points to focus on were:
 
 * allowing users to search for postcodes in Northern Ireland
 * refactoring of the prototype to allow sprints to be versioned and accessible to the team
-* adding in additonal content to address short and long term exposure to risk
-* changed the details component for further health information to a link to a seperate page
+* adding in additional content to address short and long term exposure to risk
+* changed the details component for further health information to a link to a separate page
 
 ### Searching for postcodes in Northern Ireland 
 
