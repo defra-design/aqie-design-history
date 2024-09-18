@@ -28,8 +28,8 @@ We divided the alert service into several vertical sections or modes and listed 
 The sections were:
 
 * Discovery - how a user might discover the service
-* Sign up - how a user signs up to recieve alerts
-* Notification - what happens when a user recieves an alert
+* Sign up - how a user signs up to receive alerts
+* Notification - what happens when a user receives an alert
 * Review - understanding the context of an alert
 * Unsubscribe - how a user can unsubscribe from the service
 
