@@ -57,7 +57,7 @@ As a team, we agreed the main points to focus on were:
 * can we reduce duplication by having a single pollutants page?
 
 
-## Wider information achictecture
+## Wider information architecture
 
 We reviewed an initial draft outlining how the service could integrate into the current gov.uk information architecture. Following the model of similar services like "Check for flooding," we propose placing the service under a new category called "Air pollution" within the "Environment and countryside" section. This category would contain all static content related to air quality, such as information on air pollutants and the health effects of air pollution.
 
