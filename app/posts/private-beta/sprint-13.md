@@ -67,7 +67,7 @@ In sprint 10, we started to look at the wider information architecture and how t
 * Check local air quality
 * Air quality alerts
 * Sign up for air quality alerts
-* Why we montitor air pollution
+* Why we monitor air pollution
 * Air pollutants we monitor
 * Health effects of poor air quality
 
