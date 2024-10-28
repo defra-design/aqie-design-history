@@ -10,7 +10,7 @@ author:
 ## Research goals from sprint 1
 
 * Is postcode look-up sufficient for looking up air quality?
-* Do participants understand the daily air qulaity index (DAQI) score/levels as relevant to them?​
+* Do participants understand the daily air quality index (DAQI) score/levels as relevant to them?​
 * Do people read and understand the health advice? Do they regard it as relevant to them?
 * Do people engage with the measurement stations (location, readings) and do they give credibility to the DAQI score?​
 * Do participants come away appreciating that poor air quality poses a health risk?​
@@ -39,7 +39,7 @@ Whilst the beginning of the participant's journey tested well, once they arrived
 As a team, in sprint 2, we agreed the main points to focus on were:  
 
 * the flow of the content was affected, as participants were discouraged from reading the 'related content,' possibly due to the positioning and the use of scientific terms.
-* could we increase engagement by emphasisng pollutant measurements rather than monitoring site location? 
+* could we increase engagement by emphasising pollutant measurements rather than monitoring site location? 
 * would using accurate monitoring site location names make the information more relatable?
 
 
@@ -76,9 +76,9 @@ In previous research, participants were often deterred from reading further beca
 
 ### ‘Air pollutants monitored nearby’
 
-We aimed to make this element more engaging, firstly by introducing the pollutant measurments to the page for each station. Secondly, by adding in 2 new columns: ‘trend’ and ‘rising’. 
+We aimed to make this element more engaging, firstly by introducing the pollutant measurements to the page for each station. Secondly, by adding in 2 new columns: ‘trend’ and ‘rising’. 
 
-We borrowed this concept from the Check for flooding service. We thought that this information would give the paticpants more context to the measurements rather than just displaying an arbitary number.
+We borrowed this concept from the Check for flooding service. We thought that this information would give the participants more context to the measurements rather than just displaying an arbitrary number.
 
 ![Air pollutants monitored nearby](../../images/sprint-2/monitored-near-by.png "")
 
