@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template no-js">
   <head>
     <meta charset="utf-8">
-    <title>Sitemap - Air quality design history - DEFRA</title>
+    <title>Sprint 14 - Air quality design history - DEFRA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="/aqie-design-history/assets/govuk.css">
   <link rel="stylesheet" href="/aqie-design-history/styles/application.css">
 
-  <meta property="og:url" content="/aqie-design-history/sitemap/">
-  <meta property="og:title" content="Sitemap">
+  <meta property="og:url" content="/aqie-design-history/posts/private-beta/sprint-14/">
+  <meta property="og:title" content="Sprint 14">
 
     
   </head>
@@ -49,52 +49,102 @@
 
 
       <div class="govuk-width-container ">
-  
+  <div class="govuk-breadcrumbs govuk-!-display-none-print">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
+    </li>
+  </ol>
+</div>
+
         <main class="govuk-main-wrapper " id="main-content" role="main">
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <header class="app-document-header">
+  <header class="app-document-header">
   <h1 class="app-document-header__title govuk-heading-xl">
-    Sitemap
+    Sprint&nbsp;14
   </h1>
 
 </header>
 
 
 
-    
+<div class="app-prose-scope">    <h2 id="research-goals-from-sprint-13" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-goals-from-sprint-13"><span>Research goals from sprint 13</span></a></h2>
+<p class="govuk-body">For this sprint, we decided to focus on publishing and displaying alerts within the web service, as this primarily met the statutory obligation for the service. We also wanted to explore whether or not this was sufficient to be classified as a minimum viable product (MVP).</p>
+<p class="govuk-body">This included:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>what an alert service would look like without the user having to sign up?</li>
+<li>how would an air quality alert be presented on a location forecast page?</li>
+</ul>
+<h2 id="research-findings" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#research-findings"><span>Research findings</span></a></h2>
+<h3 id="what-worked-well" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-worked-well"><span>What worked well</span></a></h3>
+<p class="govuk-body">In this round of research, we found:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>alerts were positively received with all the participants seeing them as valuable and something they would consider signing up to</li>
+<li>less engaged users follow key messages in the local area and on potential danger to health</li>
+<li>more engaged users went deeper into the information we gave them into why we measure air pollution</li>
+</ul>
+<h3 id="what-needs-work" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#what-needs-work"><span>What needs work</span></a></h3>
+<p class="govuk-body">In this round of research, we found:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>the alert banner at the top of the page could be confusing as it displays potentially conflicting information; for instance, showing a low forecast while the notification banner indicates a nearby threshold breach</li>
+<li>the pollutant threshold table on the alert page led to disengaged and oblivious users not reading it</li>
+</ul>
+<h2 id="what-we-focused-on-in-sprint-14" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#what-we-focused-on-in-sprint-14"><span>What we focused on in sprint 14</span></a></h2>
+<p class="govuk-body">We decided to prototype an end-to-end sign-up process for alerts, focusing on key aspects:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>is the sign-up process straightforward and not overly burdensome for users?</li>
+<li>do users clearly understand the different types of alerts available for subscription?</li>
+<li>how do users react to and interpret the various types of alerts they receive?</li>
+</ul>
+<h3 id="alert-service---meeting-statutory-obligations" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#alert-service---meeting-statutory-obligations"><span>Alert service - meeting statutory obligations</span></a></h3>
+<p class="govuk-body">For this sprint, we decided to focus on publishing and displaying alerts within the web service, as this primarily met the statutory obligation for the service. We also wanted to explore whether or not this was sufficient to be classified as a minimum viable product (MVP).</p>
+<h3 id="prototype-scope" tabindex="-1" class="govuk-heading-m"><a class="app-link--heading govuk-link" href="#prototype-scope"><span>Prototype scope</span></a></h3>
+<img src="../../images/sprint-13/air-quality-alerts-flow.svg" alt="Alerts service prototype scope" style="margin-bottom: 30px; margin-top: 10px; width: 100%; height: auto;" />
+<h2 id="air-pollution-topic-landing-page" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#air-pollution-topic-landing-page"><span>Air pollution topic landing page</span></a></h2>
+<p class="govuk-body">In sprint 10, we started to look at the wider information architecture and how the service sits within GOV.UK. For the prototype, we decided to start the user journey from a topic landing page that contained links to:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>Check local air quality</li>
+<li>Air quality alerts</li>
+<li>Sign up for air quality alerts</li>
+<li>Why we monitor air pollution</li>
+<li>Air pollutants we monitor</li>
+<li>Health effects of poor air quality</li>
+</ul>
+<p class="govuk-body">This page does not contain an exhaustive list. In the future, it could link to other content, such as annual compliance data or services like ‘Get air quality data’.</p>
+<figure><img src="../../images/sprint-13/topic-landing-page.png" alt="Air pollution - Topic landing page"></figure>
+<h2 id="location-page-displaying-an-alert" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#location-page-displaying-an-alert"><span>Location page displaying an alert</span></a></h2>
+<p class="govuk-body">When a user searches for air quality in their chosen location and a nearby monitoring area exceeds statutory thresholds, a notification banner is displayed at the top of the page with a link to the specific alert.</p>
+<p class="govuk-body">The page also includes a link for the user to sign up for air quality alerts.</p>
+<figure><img src="../../images/sprint-13/location.png" alt="Location page"></figure>
+<h2 id="air-quality-alerts-index" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#air-quality-alerts-index"><span>Air quality alerts index</span></a></h2>
+<p class="govuk-body">This page displays the latest air quality alerts. If a pollutant in a designated monitoring area exceeds the statutory threshold, an alert is published. The alert expires if levels fall below the threshold for 24 hours.</p>
+<figure><img src="../../images/sprint-13/air-quality-alerts.png" alt="A list of active alerts published to the web service"></figure>
+<p class="govuk-body">If there are no active air quality alerts a message is displayed to inform the user that there currently no active alerts.</p>
+<figure><img src="../../images/sprint-13/no-active-alerts.png" alt="No active alerts"></figure>
+<h2 id="active-alert" tabindex="-1" class="govuk-heading-l"><a class="app-link--heading govuk-link" href="#active-alert"><span>Active alert</span></a></h2>
+<p class="govuk-body">When a user views an active alert, a notification banner is displayed indicating the pollutant of concern and an anchor link to health advice contained within the page.</p>
+<p class="govuk-body">The template displays the relevant metadata, including:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>the monitoring area name</li>
+<li>a link to a Google Map with a pin indicating the location of the area</li>
+<li>the current timestamp</li>
+</ul>
+<p class="govuk-body">A table is also displayed with the measurements of the pollutant of concern. These include:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>name of the pollutant</li>
+<li>the maximum level over 24 hours</li>
+<li>the current level</li>
+<li>the legal threshold</li>
+</ul>
+<p class="govuk-body">The page also contains the relevant health advice and sources of the pollutant of concern. The user can also sign up for alerts from this page.</p>
+<figure><img src="../../images/sprint-13/active-alert.png" alt="Active alert page"></figure>
+<p class="govuk-body">When an alert has expired, a notification banner is displayed informing the user.</p>
+<figure><img src="../../images/sprint-13/expired-alert.png" alt="Expired alert page"></figure>
 
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/citizen-alpha/">Citizen Alpha</a>
-        </h2>
-          <p class="govuk-body">Design history for the alpha exploring concepts around citizen-facing services.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/citizen-alpha/glossary/">Glossary</a></li>
-<li><a href="/posts/citizen-alpha/personas/">Our initial personas</a></li>
-<li><a href="/posts/citizen-alpha/initial-prototype/">The initial prototype</a></li>
-<li><a href="/posts/citizen-alpha/education-prototype/">The education prototype</a></li>
-<li><a href="/posts/citizen-alpha/personalisation-prototype/">The personalisation prototype</a></li>
-<li><a href="/posts/citizen-alpha/precision-prototype/">The precision prototype</a></li></ul>
-      </div>
-      <div class="govuk-!-margin-bottom-4">
-        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
-          <a class="govuk-link" href="/aqie-design-history/private-beta/">Citizen Private Beta</a>
-        </h2>
-          <p class="govuk-body">Design history for the private beta for a citizen-facing air quality information service.</p>
-        <ul class="app-contents-list govuk-!-margin-left-4"><li><a href="/posts/private-beta/sprint-1/">Sprint 1</a></li>
-<li><a href="/posts/private-beta/sprint-2/">Sprint 2</a></li>
-<li><a href="/posts/private-beta/sprint-3/">Sprint 3</a></li>
-<li><a href="/posts/private-beta/sprint-4/">Sprint 4</a></li>
-<li><a href="/posts/private-beta/sprint-5/">Sprint 5</a></li>
-<li><a href="/posts/private-beta/sprint-6/">Sprint 6</a></li>
-<li><a href="/posts/private-beta/sprint-8/">sprint 8</a></li>
-<li><a href="/posts/private-beta/sprint-9/">sprint 9</a></li>
-<li><a href="/posts/private-beta/sprint-10/">Sprint 10</a></li>
-<li><a href="/posts/private-beta/sprint-12/">Sprint 12</a></li>
-<li><a href="/posts/private-beta/sprint-13/">Sprint 13</a></li>
-<li><a href="/posts/private-beta/sprint-14/">Sprint 14</a></li></ul>
-      </div>
-  </div>
+
+      
 </div>
         </main>
       </div>
