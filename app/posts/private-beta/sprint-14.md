@@ -30,7 +30,7 @@ In this round of research, we found:
 
 ### What needs work
 
-In this round of research, we found:
+We found:
 
 * the alert banner at the top of the page could be confusing as it displays potentially conflicting information; for instance, showing a low forecast while the notification banner indicates a nearby threshold breach
 * the pollutant threshold table on the alert page led to disengaged and oblivious users not reading it
@@ -44,73 +44,92 @@ We decided to prototype an end-to-end sign-up process for alerts, focusing on ke
 * do users clearly understand the different types of alerts available for subscription?
 * how do users react to and interpret the various types of alerts they receive?
 
-### Alert service - meeting statutory obligations
-
-For this sprint, we decided to focus on publishing and displaying alerts within the web service, as this primarily met the statutory obligation for the service. We also wanted to explore whether or not this was sufficient to be classified as a minimum viable product (MVP).
-
 ### Prototype scope
 
-<img src="../../images/sprint-13/air-quality-alerts-flow.svg" alt="Alerts service prototype scope" style="margin-bottom: 30px; margin-top: 10px; width: 100%; height: auto;" />
+<img src="../../images/sprint-14/air-quality-alerts-signup.svg" alt="Alerts service prototype scope" style="margin-bottom: 30px; margin-top: 10px; width: 100%; height: auto;" />
+
+#### Types of notifications
+
+<img src="../../images/sprint-14/air-quality-alerts-notificationstype.svg" alt="Alerts service prototype scope" style="margin-bottom: 60px; margin-top: 10px; width: 100%; height: auto;" />
+
+## Signing up for an alert 
+
+### Location page 
+
+We've added a link below the 5-day forecast: 'Get air quality alerts by email or text'.
+
+![Get air quality alerts by text or email - location page](../../images/sprint-14/location-forecast.png "")
+
+### Creating an alert for a location
+
+From the link on the location page, users are directed to a screen confirming whether they want to create an alert for the location they’re viewing or a different one.
 
 
-
-## Air pollution topic landing page
-
-In sprint 10, we started to look at the wider information architecture and how the service sits within GOV.UK. For the prototype, we decided to start the user journey from a topic landing page that contained links to:
-
-* Check local air quality
-* Air quality alerts
-* Sign up for air quality alerts
-* Why we monitor air pollution
-* Air pollutants we monitor
-* Health effects of poor air quality
-
-This page does not contain an exhaustive list. In the future, it could link to other content, such as annual compliance data or services like 'Get air quality data'.
-
-![Air pollution - Topic landing page](../../images/sprint-13/topic-landing-page.png "")
-
-## Location page displaying an alert
-
-When a user searches for air quality in their chosen location and a nearby monitoring area exceeds statutory thresholds, a notification banner is displayed at the top of the page with a link to the specific alert.
-
-The page also includes a link for the user to sign up for air quality alerts.
+![Do you want to create an alert for . . .](../../images/sprint-14/do-you-want-to-create-an-alert.png "")
 
 
-![Location page](../../images/sprint-13/location.png "")
+### Type of notifications
 
+On selecting 'Continue,' users are directed to a screen to choose their preferred notification type.
 
-## Air quality alerts index
+![Type of notifications](../../images/sprint-14/what-type-of-alert.png "")
 
-This page displays the latest air quality alerts. If a pollutant in a designated monitoring area exceeds the statutory threshold, an alert is published. The alert expires if levels fall below the threshold for 24 hours.
+### Method of notifications
 
-![A list of active alerts published to the web service](../../images/sprint-13/air-quality-alerts.png "")
+The next step the user needs to confirm how the would like to be notified, either by email or text on their prefered mobile device. 
 
-If there are no active air quality alerts a message is displayed to inform the user that there currently no active alerts. 
+![How would you like to be notified?](../../images/sprint-14/how-would-you-like-to-be-notified.png "")
 
-![No active alerts](../../images/sprint-13/no-active-alerts.png "")
+### Check your details
 
-## Active alert
+When users select 'Continue,' a confirmation screen appears, displaying their submitted details. They can make corrections before proceeding to the next step.
 
-When a user views an active alert, a notification banner is displayed indicating the pollutant of concern and an anchor link to health advice contained within the page.
+![Check your details](../../images/sprint-14/check-your-details.png "")
 
-The template displays the relevant metadata, including:
+### Check your email
 
-* the monitoring area name
-* a link to a Google Map with a pin indicating the location of the area
-* the current timestamp
+After confirming their details, users see a screen prompting them to check their email.
 
-A table is also displayed with the measurements of the pollutant of concern. These include:
+![Check your email](../../images/sprint-14/check-your-email.png "")
 
-* name of the pollutant 
-* the maximum level over 24 hours
-* the current level
-* the legal threshold
+An email is sent to the user's submitted account, requiring them to select the activation link to proceed.
 
-The page also contains the relevant health advice and sources of the pollutant of concern. The user can also sign up for alerts from this page.
+![Check your email](../../images/sprint-14/activate-email-alert.png "")
 
+### Manage air quality alerts
 
-![Active alert page](../../images/sprint-13/active-alert.png "")
+After selecting the activation link, the 'Manage Air Quality Alerts' screen appears with a success notification banner.
 
-When an alert has expired, a notification banner is displayed informing the user.
+![Manage air quality alerts](../../images/sprint-14/manage-air-quality-alerts.png "")
 
-![Expired alert page](../../images/sprint-13/expired-alert.png "")
+## Receiving air quality alerts
+
+### Forecast alert
+
+If a user's chosen location has a forecasted air pollution level of moderate or higher, a message is sent to their registered email or mobile device.
+
+![Forecast email alert](../../images/sprint-14/forecast-email-alert.png "")
+
+When users select the URL in the email, their chosen forecast location is displayed with the forecasted air pollution level of moderate or higher, along with relevant health advice.
+
+![Forecast location alert](../../images/sprint-14/forecast-location-alert.png "")
+
+### Threshold alert
+
+If a monitoring station within X miles of the user's chosen location exceeds the statutory threshold for a given pollutant, a message is sent to their registered email or preferred mobile device.
+
+![Forecast email alert](../../images/sprint-14/threshold-email-alert.png "")
+
+When users select the URL in the email, an alert page is displayed with details of the threshold breach.
+
+![Forecast location alert](../../images/sprint-14/active-alert.png "")
+
+### Expired alert
+
+When the same active threshold alert no longer breaches the statutory threshold, a message is sent to the user notifying them that the alert has expired.
+
+![Forecast email alert](../../images/sprint-14/expired-email-alert.png "")
+
+When users select the URL in the email, an alert page is displayed notifying them that the air quality alert has expired.
+
+![Forecast location alert](../../images/sprint-14/expired-alert.png "")
